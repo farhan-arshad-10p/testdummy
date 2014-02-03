@@ -1,0 +1,48 @@
+%head
+  %title== Workr #{yield(:page_title)}
+
+  %link(rel="chrome-webstore-item" href="https://chrome.google.com/webstore/detail/edaihmbbakmngpfodnkogaiomknkglkp")
+
+  %meta(name="viewport" content="width=device-width, initial-scale=1.0")
+  = analytics_init if Rails.env.production? 
+  = stylesheet_link_tag    "application", media: "all" 
+  = javascript_include_tag "jquery" 
+  = javascript_include_tag "jquery_ujs" 
+  = javascript_include_tag "bootstrap" 
+  = javascript_include_tag "jquery.ui.widget"
+  = javascript_include_tag "jquery.fileupload"
+
+  - if Rails.env.production? || Rails.env.staging?
+    :javascript
+      var _kmq = _kmq || [];
+      var _kmk = _kmk || 'a50228b6f7b0708bdbe24e7167525e9c30c5d068';
+      function _kms(u){
+      setTimeout(function(){
+      var d = document, f = d.getElementsByTagName('script')[0],
+      s = d.createElement('script');
+      s.type = 'text/javascript'; s.async = true; s.src = u;
+      f.parentNode.insertBefore(s, f);
+      }, 1);
+      }
+      _kms('//i.kissmetrics.com/i.js');
+      _kms('//doug1izaerwt3.cloudfront.net/' + _kmk + '.1.js');
+
+    - if user_signed_in?
+      :javascript
+        _kmq.push(['identify', '#{current_user.email}']);
+
+  - if user_signed_in?
+    = javascript_include_tag "application" 
+    %meta{name: "current-user", content: Api::V1::UserSerializer.new(current_user).to_json(root: false)}
+  - else
+    :javascript    
+      $(function() {
+        if(window.location != window.parent.location) {
+          $("body").addClass("in-frame");
+        } else { $("body").addClass("not-in-frame") }
+      });
+
+
+
+  = csrf_meta_tags
+

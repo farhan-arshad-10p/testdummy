@@ -1,0 +1,11 @@
+!!!
+%html{lang: "en", class: "#{Rails.env}-environment"}
+  %script
+  = render "layouts/head"
+  %body{id: body_id, class: yield(:body_class)}
+    - if user_signed_in?
+      = yield
+    - else
+      .container
+        .row.row-buffer
+          .col-12= yield

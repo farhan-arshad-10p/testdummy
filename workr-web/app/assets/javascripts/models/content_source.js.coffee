@@ -1,0 +1,9 @@
+App.ContentSource = DS.Model.extend
+  url: DS.attr 'string'
+  media_url: DS.attr 'string'
+  content_body: DS.attr 'string'
+  featured_image_url: DS.attr 'string'
+  provider_display: DS.attr 'string'
+  title: DS.attr 'string'
+  description: DS.attr 'string'
+  content_type: DS.attr 'string'

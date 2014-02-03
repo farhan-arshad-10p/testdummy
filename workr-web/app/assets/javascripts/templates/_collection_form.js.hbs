@@ -1,0 +1,11 @@
+<form role="form">
+  {{#view App.FormGroup errorsBinding="errors.name"}}
+    <label for="collection-name" class="control-label">Name</label>
+    {{view Ember.TextField valueBinding="name" id="collection-name" placeholder="Collection name" class="form-control"}}
+  {{/view}}
+  {{#view App.FormGroup errorsBinding="errors.collection"}}
+    <label for="collection-description" class="control-label">Description</label>
+    {{view Ember.TextArea valueBinding="description"  placeholder="What's in the collection?" class="form-control" id="collection-description"}}
+  {{/view}}
+  <button type="submit" class="btn btn-default app-save" {{action save this}}>Save</button>
+</form>

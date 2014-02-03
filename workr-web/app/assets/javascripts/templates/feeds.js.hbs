@@ -1,0 +1,5 @@
+<div id="feed-new">
+  {{#unless articles.length}}<h4>No items to display, maybe you should add more interests?</h4>{{/unless}}
+  {{partial 'article_collection_views'}}
+</div>
+{{view App.LoadMoreView controller=controller}}

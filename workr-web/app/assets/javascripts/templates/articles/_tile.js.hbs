@@ -1,0 +1,57 @@
+<div class="article-card-container">
+  <div {{action 'openModal' this viewed_article}} class="app-article app-view-article app-article-{{unbound id}} article-card">
+    <div class="article-tldr">
+      <div class="article-tldr-content">
+        <h4 class="article-tldr-title">tl;dr</h4>
+        {{#if description}}
+          <small>{{unbound description}}</small>
+        {{else}}
+          <p>No description given.</p>
+        {{/if}}
+      </div>
+
+      <div class="col-md-6">
+        <button class="btn btn-block btn-primary">View</button>
+      </div>
+
+      {{#if is_editable}}
+        <div class="col-md-6">
+          {{#linkTo 'articles.edit' this class='btn btn-block btn-primary app-edit'}}Edit{{/linkTo}}
+        </div>
+      {{else}}
+        <div class="col-md-6">
+          {{#linkTo 'articles.new' this.content_source class='btn btn-block btn-primary app-clip'}}Save{{/linkTo}}
+        </div>
+      {{/if}}
+    </div>
+
+    <div class="article-card-title">
+      {{view App.RatingView contentBinding='this'}}
+      <h4>
+        <small class="pull-right">{{view_count}}</small>
+        {{title}}
+        <br />
+        <small>{{content_source.provider_display}}</small>
+      </h4>
+    </div>
+
+    <div class="article-card-body">
+      {{#if content_source.featured_image_url}}
+        <img {{bindAttr src="content_source.featured_image_url"}} />
+      {{else}}
+        <div class="content-description text-muted">
+          {{{content_source.description}}}
+        </div>
+      {{/if}}
+    </div>
+
+    <div class="article-card-footer">
+      <h6>
+        <div class="pull-right">{{clipped_collection}}</div>
+        <small>Saved by </small>
+        <br />
+        <strong>{{clipped_name}}</strong>
+      </h6>
+    </div>
+  </div>
+</div>

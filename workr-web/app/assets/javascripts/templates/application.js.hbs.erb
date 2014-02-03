@@ -1,0 +1,79 @@
+<div class="container">
+  <div class="row row-buffer workr-navbar">
+    <div class="col-md-3 workr-navbar-header">
+      {{#linkTo "feeds"}}
+        <img src="/assets/logo.png" />
+      {{/linkTo}}
+      <p>Your professional knowledge lives here.</p>
+    </div>
+    <div class="col-md-9 workr-navbar-controls">
+      <div class="col-md-8">
+        <div class="input-group">
+          {{input type="text" placeholder="Search articles" class="form-control" id="app-query" action="query" value=search}}
+          <span class="input-group-btn">
+            <button class="btn workr-btn-success" type="button" {{action 'query'}} id="app-search">Search</button>
+          </span>
+        </div><!-- /input-group -->
+      </div>
+      <div class="col-md-4">
+        {{#if controllers.currentUser.isSignedIn}}
+          <div class="btn-group pull-right">
+            {{#linkTo "content_sources.new" class="btn btn-default app-clip"}}<span class="glyphicon glyphicon-plus"></span>{{/linkTo}}
+            <button type="button" class="btn btn-default dropdown-toggle app-settings-toggle" data-toggle="dropdown">
+              <span class="app-current-user">Hi, {{controllers.currentUser.first_name}}</span>
+            </button>
+            <ul class="dropdown-menu" role="menu">
+              <li>{{#linkTo 'clipper'}}Install Clipper{{/linkTo}}</li>
+              <li class="divider"></li>
+              <li>{{#linkTo 'about'}}Contact Us{{/linkTo}}</li>
+              <li class="divider"></li>
+              <li>{{#linkTo 'settings' class="app-settings"}}Settings{{/linkTo}}</li>
+              <li><a class="app-logout" href='/users/sign_out'>Log Out</a></li>
+            </ul>
+          </div>
+          
+        {{/if}}
+      </div>
+    </div>
+  </div>
+  <div class="row row-buffer">
+    <div class="col-md-3">
+      <ul class="nav nav-pills nav-stacked workr-nav-pills">
+        {{#linkTo "feeds" tagName="li" href=false}}<a href="#"><span class="glyphicon glyphicon-align-justify"></span>&nbsp;&nbsp;Feed</a>{{/linkTo}}
+        {{#linkTo "settings.collections" tagName="li" href=false}}<a href="#"><span class="glyphicon glyphicon-folder-open"></span>&nbsp;&nbsp;Your Collections</a>{{/linkTo}}
+      </ul>
+
+      <div class="viewed-articles">
+        <h4> Recents</h4>
+        <ul class="list-unstyled app-viewed-articles col-md-12">
+          {{#each controllers.currentUser.viewedArticles}}
+            <li>
+              <a {{action 'openModal' this}} class="app-article app-article-{{unbound id}}">
+                <span class="glyphicon glyphicon-list-alt"></span>
+                {{title}}
+              </a>
+            </li>
+          {{/each}}
+        </ul>
+      </div>
+    </div>
+    <div class="col-md-9">
+      <div class="loaded-content">
+        {{ outlet }}
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="modal-shade">
+  <div {{action 'closeModal'}} id="modal-close"></div>
+
+  <a href="#" class="btn btn-lg pull-right" {{action closeModal}}><span class="glyphicon glyphicon-remove-circle"></span></a>
+  <div id="modal-container" class="col-md-10 col-md-offset-1">
+    {{#with modalModel}}
+      {{partial "articles/show"}}
+    {{/with}}
+  </div>
+</div>
+
+

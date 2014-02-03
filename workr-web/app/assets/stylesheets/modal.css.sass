@@ -1,0 +1,36 @@
+#modal-shade
+  display: none
+
+#modal-container img
+  max-width: 100%
+  height: auto
+
+.modal-open 
+  overflow: hidden
+
+  #modal-shade
+    display: block
+    position: fixed
+    bottom: 0px
+    left: 0px
+    right: 0px
+    top: 0px
+    width: 100%
+    overflow-y: scroll
+    z-index: 	1032
+    background-color: rgba(227, 224, 226, 0.95)
+    cursor: -moz-zoom-out
+
+#modal-close
+  position: fixed
+  bottom: 0px
+  left: 0px
+  right: 0px
+  top: 0px
+
+#modal-container
+  min-height: 400px
+  margin-top: 28px
+
+body.modal-open
+  overflow: hidden

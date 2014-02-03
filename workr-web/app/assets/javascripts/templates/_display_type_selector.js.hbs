@@ -1,0 +1,6 @@
+<div class="btn-group btn-group-justified">
+  <a {{action searchArticles}} {{bindAttr class=":btn :btn-default :app-articles-view controllers.application.isArticleSearch:active"}}>Articles</a>
+  <a {{action searchCollections}} {{bindAttr class=":btn :btn-default :app-collections-view controllers.application.isCollectionSearch:active"}}>Collections</a>
+  <a {{action searchUsers}} {{bindAttr class=":btn :btn-default :app-users-view controllers.application.isUserSearch:active"}}>Users</a>
+</div>
+<br />

@@ -1,0 +1,81 @@
+- if !@show_form
+  .well.col-md-5
+    = link_to "Sign up with Twitter", user_omniauth_authorize_path(:twitter, invite_code: @invite.code)
+  .col-md-1
+    OR 
+  .well.col-md-5
+    Login with Email
+    = link_to "Sign up with Email", new_user_registration_path(email: true, invite_code: @invite.code), class: "app-register-via-email"
+- else
+  = error_messages_for!(@user)
+  = form_for @user, url: invite_user_registration_path(@invite.code) do |f|
+    %fieldset
+      - if @uid
+        = f.hidden_field :uid, value: @uid
+        = f.hidden_field :provider, value: @provider
+
+      %legend= t('.sign_up_legend')
+      .form-group
+        = f.label :first_name
+        = f.text_field :first_name, class: "form-control", required: :required, placeholder: t('.placeholder.first_name')
+
+      .form-group
+        = f.label :last_name
+        = f.text_field :last_name, class: "form-control", required: :required, placeholder: t('.placeholder.last_name')
+
+      .form-group
+        = f.label :email
+        = f.email_field :email, class: "form-control", required: :required, placeholder: t('.placeholder.email')
+
+      .form-group
+        = f.label :password 
+        %span.note= t('.password_warning')
+        = f.password_field :password, class: "form-control", required: :required, pattern: ".{8,}", title: "8 characters minimum", placeholder: t('.placeholder.password')
+
+      .form-group
+        = f.label :password_confirmation
+        = f.password_field :password_confirmation, class: "form-control", required: :required, pattern: ".{8,}", title: "8 characters minimum", placeholder: t('.placeholder.password_confirmation')
+
+      .form-group
+        %h3= t('.interests')
+        %p Please select one or more of the following categories. They will form the basis of your feed on Workr.
+        = hidden_field_tag "user[interest_ids][]"
+        - Interest.all.each do |interest|
+          .checkbox
+            %label
+              = check_box_tag 'user[interest_ids]', interest.id, @user.interest_ids.include?(interest.id)
+              = interest.name
+
+      .well
+        .form-group
+          .checkbox.hidden
+            %label
+              = f.check_box :terms_of_service, required: :required, checked: true
+              = t('.accept_tos')
+          %button(type="submit" class="btn btn-default")= t('.submit')
+
+      %a.hidden{'data-target' => '#app-terms', 'data-toggle' => 'collapse'}<>= t('.tos_link')
+
+      .form-group
+        #app-terms.collapse
+          %h1 Terms of Service
+          %p
+            %strong Pellentesque habitant morbi tristique
+            senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper.
+            %em Aenean ultricies mi vitae est.
+            Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed,
+            = succeed "," do
+              %code commodo vitae
+            ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui.
+            %a{:href => "#"} Donec non enim
+            in turpis pulvinar facilisis. Ut felis.
+          %h2 Header Level 2
+          %ol
+            %li Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+            %li Aliquam tincidunt mauris eu risus.
+          %blockquote
+            %p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna. Cras in mi at felis aliquet congue. Ut a est eget ligula molestie gravida. Curabitur massa. Donec eleifend, libero at sagittis mollis, tellus est malesuada tellus, at luctus turpis elit sit amet quam. Vivamus pretium ornare est.
+          %h3 Header Level 3
+          %ul
+            %li Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+            %li Aliquam tincidunt mauris eu risus.

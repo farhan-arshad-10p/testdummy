@@ -1,0 +1,269 @@
+h1,h2,h3,h4,h5,h6
+  font-family: 'Lucida Grande', "Helvetica Neue", "Arial", sans-serif
+
+.visibly-hidden
+  margin-left: -1000em
+  float: left
+
+.test-environment .visibly-hidden
+  margin-left: 0px 
+  float: none
+
+#devise-sessions-new
+  background: image_url("blurry.jpg") no-repeat center center fixed
+  -webkit-background-size: cover
+  -moz-background-size: cover
+  -o-background-size: cover
+  background-size: cover
+
+  .well, .jumbotron
+    background-color: rgba(255, 255, 255, 0.6)
+    header
+      text-align: center
+
+.tiny-avatar
+  max-width: 30px
+  max-height: 30px
+
+.load-more
+  clear: both
+
+.search-type
+  position: absolute
+  top: -50px
+  left: 29px
+  width: 364px
+  text-transform: capitalize
+
+.viewed-articles 
+  margin-top: 88px
+  border-top: 1px dashed #ccc
+
+  li
+    text-overflow: ellipsis
+    overflow: hidden
+    white-space: nowrap
+    transition-property: margin-left
+    transition-duration: .5s
+    cursor: pointer
+    padding: 5px 0px
+
+    a
+      color: #78C58D
+
+    &:hover
+      margin-left: -15px
+  
+.workr-navbar
+  height: 84px
+  .workr-navbar-controls
+    margin-top: 6px
+
+.workr-nav-pills > li.active > a, .workr-nav-pills > li.active > a:hover, .workr-nav-pills > li.active > a:focus
+  background-color: #78C58D
+  color: white
+   
+.workr-nav-pills > li > a
+  color: #78C58D
+
+.workr-btn-success
+  background-color: #78C58D
+  border-color: #2f662d
+  color: #fff
+
+  &:hover
+    background-color: #2f662d
+    color: #fff
+
+.workr-navbar-header
+  text-align: center
+  color: #27313D
+
+.row-buffer 
+  margin-top: 10px
+
+.right-border
+  border-right: 1px solid #ddd
+
+.left-border
+  border-left: 1px solid #ddd
+
+.article-card-container
+  font-family: 'Lucida Grande', "Helvetica Neue", "Arial", sans-serif
+  position: relative
+  margin-bottom: 30px
+  height: 0
+  overflow: hidden
+  padding: 6px 6px 100% 6px
+  border: 1px solid #ddd
+  background-color: white
+  border-radius: 3px
+  cursor: pointer
+  -webkit-box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.1)
+  -moz-box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.1)
+  -ms-box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.1)
+  -o-box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.1)
+  box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.1)
+
+.username
+  h1
+    margin-top: 0
+  .follow-button
+    margin-top: 5px
+
+.article-card
+  .article-card-title
+    margin-bottom: 8px
+
+    h4
+      padding: 0
+      margin: 0
+  img 
+    max-width: 100%
+    margin: 0 auto
+    display: block
+
+  .article-card-body
+    height: 100%
+    overflow: hidden
+    
+
+  .article-card-footer
+    background-color: #FFF
+    position: absolute
+    bottom: 0
+    width: 100%
+    margin-left: -4px
+    padding: 6px 6px
+
+    h6
+      margin: 0px
+    
+
+  .article-tldr
+    display: none
+    background-color: rgb(34, 34, 34)
+    background-color: rgba(10, 10, 10, 0.7)
+    height: 100%
+    padding: 10% 
+    width: 100%
+    position: absolute
+    z-index: 	1031
+    top: 0
+    left: 0px
+
+    .article-tldr-title
+      text-align: center
+
+    .article-tldr-content
+      color: white
+      height: 80%
+      overflow: hidden 
+      margin-bottom: 10px 
+
+  &:hover
+    .article-tldr
+      display: inline
+
+.collection-card
+  text-decoration: none !important
+  display: block
+  position: relative
+  margin-bottom: 30px
+  height: 252px
+  overflow: hidden
+  padding: 4px 4px 100% 4px 
+  border: 1px solid #ddd
+  border-radius: 6px
+  border: 1px solid #ddd
+  cursor: pointer
+
+  &:hover
+    border-color: #78C58D
+    box-shadow: 0 0 0px 1px #78C58D
+
+  &.create-collection
+    color: #999999
+    background-color: #F5F5F5
+    text-align: center
+    &:hover
+      background-color: #DFDFDF
+  .collection-card-hover, .collection-card-title, .collection-card-preview
+    position: absolute
+    right: 0
+    left: 0
+  .collection-card-hover
+    top: 94px 
+    bottom: 0px
+    padding: 8px
+    .owner
+      float: right
+      color: white
+      font-weight: bold
+    .edit
+      position: absolute
+      bottom: 8px
+      right: 8px
+  .collection-card-title
+    padding: 5px 11px 10px
+    top: 0
+    z-index: 2
+    color: white
+    height: 94px
+    background: transparent
+    background-color: rgb(34, 34, 34)
+    background-color: rgba(10, 10, 10, 0.7)
+    border-bottom: 1px solid rgb(221, 221, 221)
+    border-bottom: 1px solid rgba(221, 221, 221, 0.5)
+  .collection-card-preview
+    top: 0
+    bottom: 0
+    z-index: 1
+    background-size: cover
+    background-repeat: no-repeat
+    background-position: 50% 50%
+    &.no-preview
+      background-color: #ADADAD
+
+#articles-show, #modal-container
+  *
+    white-space: normal
+  .save-article
+    margin-bottom: 10px
+  .panel-heading
+    h3
+      clear: both
+  .panel-body
+    clear: both
+
+.article-ratings
+  unicode-bidi: bidi-override
+  direction: rtl
+  text-align: center
+  .star
+    float: none
+    padding: 0
+    border: 0
+    cursor: default
+    &.off
+      color: grey
+    &.on, &.on ~ .star
+      color: red
+  &.user
+    .star
+      &.on, &.on ~ .star
+        color: gold
+  &.average
+    .star
+      &.on, &.on ~ .star
+        color: rgba(255, 47, 48, 0.7)
+
+  &.interactive:hover
+    .star.on, .star.off
+      cursor: pointer
+      color: grey
+
+  &.interactive
+    .star
+      &:hover, &:hover ~ .star
+        color: gold !important

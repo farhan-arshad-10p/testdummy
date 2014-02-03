@@ -1,0 +1,6 @@
+<div id="collections" class="col-md-12">
+  {{#unless collection_count}}<h4>No collections have been created...</h4>{{/unless}}
+  {{#each collections}}
+    {{partial collection}}
+  {{/each}}
+</div>

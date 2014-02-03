@@ -1,0 +1,19 @@
+<div class="col-md-12">
+  <form role="form">
+    {{#view App.FormGroup errorsBinding="errors.first_name"}}
+      <label for="user-first-name" class="control-label">First Name</label>
+      {{view Ember.TextField valueBinding="first_name" id="user-first-name" placeholder="First Name" class="form-control"}}
+    {{/view}}
+    {{#view App.FormGroup errorsBinding="errors.last_name"}}
+      <label for="user-first-name" class="control-label">Last Name</label>
+      {{view Ember.TextField valueBinding="last_name" id="user-last-name" placeholder="First Name" class="form-control"}}
+    {{/view}}
+
+    {{#view App.FormGroup errorsBinding="errors.email"}}
+      <label for="user-email" class="control-label">Email</label>
+      {{view Ember.TextField valueBinding="email" id="user-email" placeholder="Email" class="form-control"}}
+    {{/view}}
+
+    <button type="submit" class="btn btn-default app-save" {{action save this}}>Save</button>
+  </form>
+</div>

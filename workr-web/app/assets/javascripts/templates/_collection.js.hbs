@@ -1,0 +1,21 @@
+<div class="col-md-4 app-collection-{{unbound id}} app-view-collection">
+  {{#linkTo 'collections.show' this class='collection-card'}}
+    <div class="collection-card-title">
+      <h4>{{name}}</h4>
+      <span>{{article_count}} articles</span>
+    </div>
+    {{#if teaser_image}}
+      <div class="collection-card-preview" style="background-image: url({{unbound teaser_image}})">
+    {{else}}
+      <div class="collection-card-preview no-preview">
+    {{/if}}
+    </div>
+
+    <div class="collection-card-hover">
+      <span class='owner'>{{user.full_name}}</span>
+      {{#if is_editable}}
+        <button class="btn btn-info app-edit edit" {{action editCollection collection bubble=false}}>Edit</button>
+      {{/if}}
+    </div>
+  {{/linkTo}}
+</div>

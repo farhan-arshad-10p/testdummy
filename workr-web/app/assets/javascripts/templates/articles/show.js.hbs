@@ -1,0 +1,8 @@
+{{#if controllers.application.inFrame}}
+  <h2>Saved</h2>
+  {{ view App.CloseIframe }}
+{{else}}
+  <div id="articles-show">
+    {{partial "articles/show"}}
+  </div>
+{{/if}}

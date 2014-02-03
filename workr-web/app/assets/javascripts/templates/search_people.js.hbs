@@ -1,0 +1,12 @@
+{{partial 'display_type_selector'}}
+<div id="search" class="col-md-12">
+  {{#unless people.length}}<h4>No users found, please try another search term!</h4>{{/unless}}
+  <table class="table table-striped">
+    <tbody>
+      {{#each user in people}}
+        {{partial 'user/user_listing'}}
+      {{/each}}
+    </tbody>
+  </table>
+</div>
+{{view App.LoadMoreView controller=controller}}

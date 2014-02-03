@@ -1,0 +1,35 @@
+development:
+  adapter: mysql2
+  database: workr_development
+  username: root
+  password: tenpearls
+  host: localhost
+
+test: &test
+  adapter: mysql2
+  database: workr_test
+  username: root
+  password: tenpearls
+
+staging: &staging
+  adapter: mysql2
+  database: workr_staging
+  username: workr
+  password: Z2kTK1RkmKBG
+  host: localhost
+  encoding: utf8
+  pool: 5
+  timeout: 5000
+
+production: &production
+  adapter: mysql2
+  database: workr_production
+  username: workr
+  password: Kxem5SXw8LwP
+  host: localhost
+  encoding: utf8
+  pool: 5
+  timeout: 5000
+
+cucumber:
+  <<: *test

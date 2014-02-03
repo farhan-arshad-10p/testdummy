@@ -1,0 +1,2011 @@
+2013-11-01 17:08:10[WARN] user: tariq
+localhost:3000http://localhost:3000/admin/articles
+Unused Eager Loading detected
+  ImageArticle => [:content_source]
+  Remove from your finder: :include => [:content_source]2013-11-01 17:52:26[WARN] user: tariq
+10.0.1.22:3000http://10.0.1.22:3000/admin/articles
+Unused Eager Loading detected
+  ImageArticle => [:content_source]
+  Remove from your finder: :include => [:content_source]2013-11-01 17:52:41[WARN] user: tariq
+10.0.1.22:3000http://10.0.1.22:3000/admin/articles/1/edit
+Unused Eager Loading detected
+  ImageArticle => [:content_source]
+  Remove from your finder: :include => [:content_source]2013-11-01 17:52:48[WARN] user: tariq
+10.0.1.22:3000http://10.0.1.22:3000/admin/articles
+Unused Eager Loading detected
+  ImageArticle => [:content_source]
+  Remove from your finder: :include => [:content_source]2013-11-01 17:55:08[WARN] user: tariq
+10.0.1.22:3000http://10.0.1.22:3000/admin/articles
+Unused Eager Loading detected
+  ImageArticle => [:content_source]
+  Remove from your finder: :include => [:content_source]2013-11-01 17:55:12[WARN] user: tariq
+10.0.1.22:3000http://10.0.1.22:3000/admin/articles/1/edit
+Unused Eager Loading detected
+  ImageArticle => [:content_source]
+  Remove from your finder: :include => [:content_source]2014-01-29 17:23:44[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-01-29 17:25:50[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-01-29 17:42:38[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-01-29 17:42:54[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-01-29 17:43:18[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-01-29 17:44:23[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-01-29 17:47:23[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-01-29 17:47:48[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-01-29 17:48:47[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-01-29 17:49:20[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-01-29 17:50:18[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-01-29 17:51:27[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-01-29 17:51:53[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-01-29 17:52:26[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-01-29 17:54:49[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-01-29 17:55:31[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-01-29 17:56:58[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-01-29 17:57:48[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-01-29 17:57:54[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-01-29 17:58:17[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-01-29 17:59:18[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-01-29 17:59:47[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-01-29 17:59:56[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-01-29 18:00:31[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-01-29 18:00:59[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-01-29 18:01:58[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-01-29 18:42:49[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-01-29 18:43:46[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-01-29 18:45:51[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-01-29 18:46:48[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-01-29 18:47:02[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-01-29 18:47:55[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-01-29 18:48:40[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-01-29 18:48:54[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-01-29 18:49:13[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-01-29 18:49:21[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-01-29 18:49:55[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-01-29 18:50:10[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-01-29 18:58:17[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-01-29 18:59:55[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-01-29 19:00:29[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-01-29 19:00:50[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-01-29 19:02:01[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-01-31 10:50:34[WARN] user: tariq
+localhost:3000http://localhost:3000/api/collections/1/articles
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-01-31 10:51:27[WARN] user: tariq
+localhost:3000http://localhost:3000/api/collections/1/articles
+N+1 Query detected
+  HtmlArticle => [:ratings]
+  Add to your finder: :include => [:ratings]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /var/www/project_workr/workr-web/app/models/article.rb:46:in `average_rating'
+  /var/www/project_workr/workr-web/app/controllers/api/v1/articles_controller.rb:16:in `index'2014-01-31 10:51:27[WARN] user: tariq
+localhost:3000http://localhost:3000/api/collections/1/articles
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-01-31 11:45:59[WARN] user: tariq
+localhost:3000http://localhost:3000/api/collections/1/articles
+N+1 Query detected
+  HtmlArticle => [:ratings]
+  Add to your finder: :include => [:ratings]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /var/www/project_workr/workr-web/app/models/article.rb:46:in `average_rating'
+  /var/www/project_workr/workr-web/app/controllers/api/v1/articles_controller.rb:16:in `index'2014-01-31 11:45:59[WARN] user: tariq
+localhost:3000http://localhost:3000/api/collections/1/articles
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-01-31 11:47:06[WARN] user: tariq
+localhost:3000http://localhost:3000/admin/articles
+Unused Eager Loading detected
+  HtmlArticle => [:content_source]
+  Remove from your finder: :include => [:content_source]2014-01-31 11:48:00[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=2&ids%5B%5D=1
+N+1 Query detected
+  HtmlArticle => [:ratings]
+  Add to your finder: :include => [:ratings]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /var/www/project_workr/workr-web/app/models/article.rb:46:in `average_rating'
+  /var/www/project_workr/workr-web/app/controllers/api/v1/articles_controller.rb:16:in `index'2014-01-31 11:48:00[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=2&ids%5B%5D=1
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-01-31 11:48:15[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+N+1 Query detected
+  HtmlArticle => [:ratings]
+  Add to your finder: :include => [:ratings]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /var/www/project_workr/workr-web/app/models/article.rb:46:in `average_rating'
+  /var/www/project_workr/workr-web/app/controllers/api/v1/articles_controller.rb:16:in `index'2014-01-31 11:48:15[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-01-31 11:50:34[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+N+1 Query detected
+  HtmlArticle => [:ratings]
+  Add to your finder: :include => [:ratings]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /var/www/project_workr/workr-web/app/models/article.rb:46:in `average_rating'
+  /var/www/project_workr/workr-web/app/controllers/api/v1/articles_controller.rb:16:in `index'2014-01-31 11:50:34[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-01-31 11:59:06[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+N+1 Query detected
+  HtmlArticle => [:ratings]
+  Add to your finder: :include => [:ratings]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /var/www/project_workr/workr-web/app/models/article.rb:46:in `average_rating'
+  /var/www/project_workr/workr-web/app/controllers/api/v1/articles_controller.rb:16:in `index'2014-01-31 11:59:06[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-01-31 14:49:27[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+N+1 Query detected
+  HtmlArticle => [:ratings]
+  Add to your finder: :include => [:ratings]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /var/www/project_workr/workr-web/app/models/article.rb:46:in `average_rating'
+  /var/www/project_workr/workr-web/app/controllers/api/v1/articles_controller.rb:16:in `index'2014-01-31 14:49:27[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-01-31 14:50:09[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+N+1 Query detected
+  HtmlArticle => [:ratings]
+  Add to your finder: :include => [:ratings]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /var/www/project_workr/workr-web/app/models/article.rb:46:in `average_rating'
+  /var/www/project_workr/workr-web/app/controllers/api/v1/articles_controller.rb:16:in `index'2014-01-31 14:50:09[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-01-31 14:52:40[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+N+1 Query detected
+  HtmlArticle => [:ratings]
+  Add to your finder: :include => [:ratings]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /var/www/project_workr/workr-web/app/models/article.rb:46:in `average_rating'
+  /var/www/project_workr/workr-web/app/controllers/api/v1/articles_controller.rb:16:in `index'2014-01-31 14:52:40[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-01-31 14:52:48[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+N+1 Query detected
+  HtmlArticle => [:ratings]
+  Add to your finder: :include => [:ratings]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /var/www/project_workr/workr-web/app/models/article.rb:46:in `average_rating'
+  /var/www/project_workr/workr-web/app/controllers/api/v1/articles_controller.rb:16:in `index'2014-01-31 14:52:48[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-01-31 14:53:27[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+N+1 Query detected
+  HtmlArticle => [:ratings]
+  Add to your finder: :include => [:ratings]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /var/www/project_workr/workr-web/app/models/article.rb:46:in `average_rating'
+  /var/www/project_workr/workr-web/app/controllers/api/v1/articles_controller.rb:16:in `index'2014-01-31 14:53:27[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-01-31 14:53:36[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+N+1 Query detected
+  HtmlArticle => [:ratings]
+  Add to your finder: :include => [:ratings]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /var/www/project_workr/workr-web/app/models/article.rb:46:in `average_rating'
+  /var/www/project_workr/workr-web/app/controllers/api/v1/articles_controller.rb:16:in `index'2014-01-31 14:53:36[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-01-31 14:53:48[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+N+1 Query detected
+  HtmlArticle => [:ratings]
+  Add to your finder: :include => [:ratings]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /var/www/project_workr/workr-web/app/models/article.rb:46:in `average_rating'
+  /var/www/project_workr/workr-web/app/controllers/api/v1/articles_controller.rb:16:in `index'2014-01-31 14:53:48[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-01-31 14:55:15[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+N+1 Query detected
+  HtmlArticle => [:ratings]
+  Add to your finder: :include => [:ratings]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /var/www/project_workr/workr-web/app/models/article.rb:46:in `average_rating'
+  /var/www/project_workr/workr-web/app/controllers/api/v1/articles_controller.rb:16:in `index'2014-01-31 14:55:15[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-01-31 14:55:32[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+N+1 Query detected
+  HtmlArticle => [:ratings]
+  Add to your finder: :include => [:ratings]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /var/www/project_workr/workr-web/app/models/article.rb:46:in `average_rating'
+  /var/www/project_workr/workr-web/app/controllers/api/v1/articles_controller.rb:16:in `index'2014-01-31 14:55:32[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-01-31 15:01:59[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+N+1 Query detected
+  HtmlArticle => [:ratings]
+  Add to your finder: :include => [:ratings]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /var/www/project_workr/workr-web/app/models/article.rb:46:in `average_rating'
+  /var/www/project_workr/workr-web/app/controllers/api/v1/articles_controller.rb:16:in `index'2014-01-31 15:01:59[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-01-31 15:04:56[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+N+1 Query detected
+  HtmlArticle => [:ratings]
+  Add to your finder: :include => [:ratings]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /var/www/project_workr/workr-web/app/models/article.rb:46:in `average_rating'
+  /var/www/project_workr/workr-web/app/controllers/api/v1/articles_controller.rb:16:in `index'2014-01-31 15:04:56[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-01-31 15:05:16[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+N+1 Query detected
+  HtmlArticle => [:ratings]
+  Add to your finder: :include => [:ratings]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /var/www/project_workr/workr-web/app/models/article.rb:46:in `average_rating'
+  /var/www/project_workr/workr-web/app/controllers/api/v1/articles_controller.rb:16:in `index'2014-01-31 15:05:16[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-01-31 15:05:29[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+N+1 Query detected
+  HtmlArticle => [:ratings]
+  Add to your finder: :include => [:ratings]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /var/www/project_workr/workr-web/app/models/article.rb:46:in `average_rating'
+  /var/www/project_workr/workr-web/app/controllers/api/v1/articles_controller.rb:16:in `index'2014-01-31 15:05:30[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-01-31 15:06:52[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+N+1 Query detected
+  HtmlArticle => [:ratings]
+  Add to your finder: :include => [:ratings]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /var/www/project_workr/workr-web/app/models/article.rb:46:in `average_rating'
+  /var/www/project_workr/workr-web/app/controllers/api/v1/articles_controller.rb:16:in `index'2014-01-31 15:06:52[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-01-31 15:12:36[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+N+1 Query detected
+  HtmlArticle => [:ratings]
+  Add to your finder: :include => [:ratings]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /var/www/project_workr/workr-web/app/models/article.rb:46:in `average_rating'
+  /var/www/project_workr/workr-web/app/controllers/api/v1/articles_controller.rb:16:in `index'2014-01-31 15:12:36[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-01-31 15:12:57[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+N+1 Query detected
+  HtmlArticle => [:ratings]
+  Add to your finder: :include => [:ratings]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /var/www/project_workr/workr-web/app/models/article.rb:46:in `average_rating'
+  /var/www/project_workr/workr-web/app/controllers/api/v1/articles_controller.rb:16:in `index'2014-01-31 15:12:57[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-01-31 15:13:19[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+N+1 Query detected
+  HtmlArticle => [:ratings]
+  Add to your finder: :include => [:ratings]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /var/www/project_workr/workr-web/app/models/article.rb:46:in `average_rating'
+  /var/www/project_workr/workr-web/app/controllers/api/v1/articles_controller.rb:16:in `index'2014-01-31 15:13:19[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-01-31 15:14:01[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+N+1 Query detected
+  HtmlArticle => [:ratings]
+  Add to your finder: :include => [:ratings]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /var/www/project_workr/workr-web/app/models/article.rb:46:in `average_rating'
+  /var/www/project_workr/workr-web/app/controllers/api/v1/articles_controller.rb:16:in `index'2014-01-31 15:14:01[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-01-31 15:14:22[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+N+1 Query detected
+  HtmlArticle => [:ratings]
+  Add to your finder: :include => [:ratings]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /var/www/project_workr/workr-web/app/models/article.rb:46:in `average_rating'
+  /var/www/project_workr/workr-web/app/controllers/api/v1/articles_controller.rb:16:in `index'2014-01-31 15:14:22[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-01-31 15:14:39[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+N+1 Query detected
+  HtmlArticle => [:ratings]
+  Add to your finder: :include => [:ratings]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /var/www/project_workr/workr-web/app/models/article.rb:46:in `average_rating'
+  /var/www/project_workr/workr-web/app/controllers/api/v1/articles_controller.rb:16:in `index'2014-01-31 15:14:39[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-01-31 15:14:57[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+N+1 Query detected
+  HtmlArticle => [:ratings]
+  Add to your finder: :include => [:ratings]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /var/www/project_workr/workr-web/app/models/article.rb:46:in `average_rating'
+  /var/www/project_workr/workr-web/app/controllers/api/v1/articles_controller.rb:16:in `index'2014-01-31 15:14:57[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-01-31 15:15:30[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+N+1 Query detected
+  HtmlArticle => [:ratings]
+  Add to your finder: :include => [:ratings]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /var/www/project_workr/workr-web/app/models/article.rb:46:in `average_rating'
+  /var/www/project_workr/workr-web/app/controllers/api/v1/articles_controller.rb:16:in `index'2014-01-31 15:15:30[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-01-31 15:16:59[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+N+1 Query detected
+  HtmlArticle => [:ratings]
+  Add to your finder: :include => [:ratings]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /var/www/project_workr/workr-web/app/models/article.rb:46:in `average_rating'
+  /var/www/project_workr/workr-web/app/controllers/api/v1/articles_controller.rb:16:in `index'2014-01-31 15:16:59[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-01-31 15:22:48[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+N+1 Query detected
+  HtmlArticle => [:ratings]
+  Add to your finder: :include => [:ratings]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /var/www/project_workr/workr-web/app/models/article.rb:46:in `average_rating'
+  /var/www/project_workr/workr-web/app/controllers/api/v1/articles_controller.rb:16:in `index'2014-01-31 15:22:48[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-01-31 15:50:21[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=2
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-01-31 15:50:45[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+N+1 Query detected
+  HtmlArticle => [:ratings]
+  Add to your finder: :include => [:ratings]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /var/www/project_workr/workr-web/app/models/article.rb:46:in `average_rating'
+  /var/www/project_workr/workr-web/app/controllers/api/v1/articles_controller.rb:16:in `index'2014-01-31 15:50:45[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-01-31 15:51:10[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+N+1 Query detected
+  HtmlArticle => [:ratings]
+  Add to your finder: :include => [:ratings]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /var/www/project_workr/workr-web/app/models/article.rb:46:in `average_rating'
+  /var/www/project_workr/workr-web/app/controllers/api/v1/articles_controller.rb:16:in `index'2014-01-31 15:51:10[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-01-31 15:52:13[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+N+1 Query detected
+  HtmlArticle => [:ratings]
+  Add to your finder: :include => [:ratings]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /var/www/project_workr/workr-web/app/models/article.rb:46:in `average_rating'
+  /var/www/project_workr/workr-web/app/controllers/api/v1/articles_controller.rb:16:in `index'2014-01-31 15:52:13[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-01-31 15:53:24[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+N+1 Query detected
+  HtmlArticle => [:ratings]
+  Add to your finder: :include => [:ratings]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /var/www/project_workr/workr-web/app/models/article.rb:46:in `average_rating'
+  /var/www/project_workr/workr-web/app/controllers/api/v1/articles_controller.rb:16:in `index'2014-01-31 15:53:24[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-01-31 15:55:11[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+N+1 Query detected
+  HtmlArticle => [:ratings]
+  Add to your finder: :include => [:ratings]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /var/www/project_workr/workr-web/app/models/article.rb:46:in `average_rating'
+  /var/www/project_workr/workr-web/app/controllers/api/v1/articles_controller.rb:16:in `index'2014-01-31 15:55:11[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-01-31 15:57:23[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+N+1 Query detected
+  HtmlArticle => [:ratings]
+  Add to your finder: :include => [:ratings]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /var/www/project_workr/workr-web/app/models/article.rb:46:in `average_rating'
+  /var/www/project_workr/workr-web/app/controllers/api/v1/articles_controller.rb:16:in `index'2014-01-31 15:57:23[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-01-31 15:57:38[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+N+1 Query detected
+  HtmlArticle => [:ratings]
+  Add to your finder: :include => [:ratings]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /var/www/project_workr/workr-web/app/models/article.rb:46:in `average_rating'
+  /var/www/project_workr/workr-web/app/controllers/api/v1/articles_controller.rb:16:in `index'2014-01-31 15:57:38[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-01-31 15:58:15[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+N+1 Query detected
+  HtmlArticle => [:ratings]
+  Add to your finder: :include => [:ratings]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /var/www/project_workr/workr-web/app/models/article.rb:46:in `average_rating'
+  /var/www/project_workr/workr-web/app/controllers/api/v1/articles_controller.rb:16:in `index'2014-01-31 15:58:15[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-01-31 15:58:50[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+N+1 Query detected
+  HtmlArticle => [:ratings]
+  Add to your finder: :include => [:ratings]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /var/www/project_workr/workr-web/app/models/article.rb:46:in `average_rating'
+  /var/www/project_workr/workr-web/app/controllers/api/v1/articles_controller.rb:16:in `index'2014-01-31 15:58:50[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-01-31 15:59:24[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+N+1 Query detected
+  HtmlArticle => [:ratings]
+  Add to your finder: :include => [:ratings]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /var/www/project_workr/workr-web/app/models/article.rb:46:in `average_rating'
+  /var/www/project_workr/workr-web/app/controllers/api/v1/articles_controller.rb:16:in `index'2014-01-31 15:59:24[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-01-31 15:59:36[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+N+1 Query detected
+  HtmlArticle => [:ratings]
+  Add to your finder: :include => [:ratings]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /var/www/project_workr/workr-web/app/models/article.rb:46:in `average_rating'
+  /var/www/project_workr/workr-web/app/controllers/api/v1/articles_controller.rb:16:in `index'2014-01-31 15:59:36[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-01-31 16:01:11[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+N+1 Query detected
+  HtmlArticle => [:ratings]
+  Add to your finder: :include => [:ratings]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /var/www/project_workr/workr-web/app/models/article.rb:46:in `average_rating'
+  /var/www/project_workr/workr-web/app/controllers/api/v1/articles_controller.rb:16:in `index'2014-01-31 16:01:11[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-01-31 16:01:32[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+N+1 Query detected
+  HtmlArticle => [:ratings]
+  Add to your finder: :include => [:ratings]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /var/www/project_workr/workr-web/app/models/article.rb:46:in `average_rating'
+  /var/www/project_workr/workr-web/app/controllers/api/v1/articles_controller.rb:16:in `index'2014-01-31 16:01:32[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-01-31 16:04:29[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=2
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-01-31 16:25:15[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+N+1 Query detected
+  HtmlArticle => [:ratings]
+  Add to your finder: :include => [:ratings]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /var/www/project_workr/workr-web/app/models/article.rb:46:in `average_rating'
+  /var/www/project_workr/workr-web/app/controllers/api/v1/articles_controller.rb:16:in `index'2014-01-31 16:25:15[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-01-31 16:26:16[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+N+1 Query detected
+  HtmlArticle => [:ratings]
+  Add to your finder: :include => [:ratings]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /var/www/project_workr/workr-web/app/models/article.rb:46:in `average_rating'
+  /var/www/project_workr/workr-web/app/controllers/api/v1/articles_controller.rb:16:in `index'2014-01-31 16:26:16[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-01-31 16:26:41[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+N+1 Query detected
+  HtmlArticle => [:ratings]
+  Add to your finder: :include => [:ratings]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /var/www/project_workr/workr-web/app/models/article.rb:46:in `average_rating'
+  /var/www/project_workr/workr-web/app/controllers/api/v1/articles_controller.rb:16:in `index'2014-01-31 16:26:41[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-01-31 16:27:53[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+N+1 Query detected
+  HtmlArticle => [:ratings]
+  Add to your finder: :include => [:ratings]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /var/www/project_workr/workr-web/app/models/article.rb:46:in `average_rating'
+  /var/www/project_workr/workr-web/app/controllers/api/v1/articles_controller.rb:16:in `index'2014-01-31 16:27:53[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-01-31 16:28:16[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+N+1 Query detected
+  HtmlArticle => [:ratings]
+  Add to your finder: :include => [:ratings]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /var/www/project_workr/workr-web/app/models/article.rb:46:in `average_rating'
+  /var/www/project_workr/workr-web/app/controllers/api/v1/articles_controller.rb:16:in `index'2014-01-31 16:28:16[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-01-31 16:28:39[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+N+1 Query detected
+  HtmlArticle => [:ratings]
+  Add to your finder: :include => [:ratings]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /var/www/project_workr/workr-web/app/models/article.rb:46:in `average_rating'
+  /var/www/project_workr/workr-web/app/controllers/api/v1/articles_controller.rb:16:in `index'2014-01-31 16:28:39[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-01-31 16:29:01[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+N+1 Query detected
+  HtmlArticle => [:ratings]
+  Add to your finder: :include => [:ratings]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /var/www/project_workr/workr-web/app/models/article.rb:46:in `average_rating'
+  /var/www/project_workr/workr-web/app/controllers/api/v1/articles_controller.rb:16:in `index'2014-01-31 16:29:01[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-01-31 16:29:29[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+N+1 Query detected
+  HtmlArticle => [:ratings]
+  Add to your finder: :include => [:ratings]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /var/www/project_workr/workr-web/app/models/article.rb:46:in `average_rating'
+  /var/www/project_workr/workr-web/app/controllers/api/v1/articles_controller.rb:16:in `index'2014-01-31 16:29:29[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-01-31 16:30:32[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+N+1 Query detected
+  HtmlArticle => [:ratings]
+  Add to your finder: :include => [:ratings]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /var/www/project_workr/workr-web/app/models/article.rb:46:in `average_rating'
+  /var/www/project_workr/workr-web/app/controllers/api/v1/articles_controller.rb:16:in `index'2014-01-31 16:30:32[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-01-31 16:30:48[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+N+1 Query detected
+  HtmlArticle => [:ratings]
+  Add to your finder: :include => [:ratings]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /var/www/project_workr/workr-web/app/models/article.rb:46:in `average_rating'
+  /var/www/project_workr/workr-web/app/controllers/api/v1/articles_controller.rb:16:in `index'2014-01-31 16:30:48[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-01-31 16:31:06[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+N+1 Query detected
+  HtmlArticle => [:ratings]
+  Add to your finder: :include => [:ratings]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /var/www/project_workr/workr-web/app/models/article.rb:46:in `average_rating'
+  /var/www/project_workr/workr-web/app/controllers/api/v1/articles_controller.rb:16:in `index'2014-01-31 16:31:06[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-01-31 16:34:56[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+N+1 Query detected
+  HtmlArticle => [:ratings]
+  Add to your finder: :include => [:ratings]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /var/www/project_workr/workr-web/app/models/article.rb:46:in `average_rating'
+  /var/www/project_workr/workr-web/app/controllers/api/v1/articles_controller.rb:16:in `index'2014-01-31 16:34:56[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-01-31 16:35:16[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+N+1 Query detected
+  HtmlArticle => [:ratings]
+  Add to your finder: :include => [:ratings]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /var/www/project_workr/workr-web/app/models/article.rb:46:in `average_rating'
+  /var/www/project_workr/workr-web/app/controllers/api/v1/articles_controller.rb:16:in `index'2014-01-31 16:35:16[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-01-31 16:35:29[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+N+1 Query detected
+  HtmlArticle => [:ratings]
+  Add to your finder: :include => [:ratings]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /var/www/project_workr/workr-web/app/models/article.rb:46:in `average_rating'
+  /var/www/project_workr/workr-web/app/controllers/api/v1/articles_controller.rb:16:in `index'2014-01-31 16:35:29[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-01-31 16:35:40[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+N+1 Query detected
+  HtmlArticle => [:ratings]
+  Add to your finder: :include => [:ratings]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /var/www/project_workr/workr-web/app/models/article.rb:46:in `average_rating'
+  /var/www/project_workr/workr-web/app/controllers/api/v1/articles_controller.rb:16:in `index'2014-01-31 16:35:40[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-01-31 16:36:26[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+N+1 Query detected
+  HtmlArticle => [:ratings]
+  Add to your finder: :include => [:ratings]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /var/www/project_workr/workr-web/app/models/article.rb:46:in `average_rating'
+  /var/www/project_workr/workr-web/app/controllers/api/v1/articles_controller.rb:16:in `index'2014-01-31 16:36:26[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-01-31 16:36:52[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+N+1 Query detected
+  HtmlArticle => [:ratings]
+  Add to your finder: :include => [:ratings]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /var/www/project_workr/workr-web/app/models/article.rb:46:in `average_rating'
+  /var/www/project_workr/workr-web/app/controllers/api/v1/articles_controller.rb:16:in `index'2014-01-31 16:36:52[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-01-31 16:37:24[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+N+1 Query detected
+  HtmlArticle => [:ratings]
+  Add to your finder: :include => [:ratings]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /var/www/project_workr/workr-web/app/models/article.rb:46:in `average_rating'
+  /var/www/project_workr/workr-web/app/controllers/api/v1/articles_controller.rb:16:in `index'2014-01-31 16:37:24[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-01-31 16:39:18[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+N+1 Query detected
+  HtmlArticle => [:ratings]
+  Add to your finder: :include => [:ratings]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /var/www/project_workr/workr-web/app/models/article.rb:46:in `average_rating'
+  /var/www/project_workr/workr-web/app/controllers/api/v1/articles_controller.rb:16:in `index'2014-01-31 16:39:18[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-01-31 16:39:45[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+N+1 Query detected
+  HtmlArticle => [:ratings]
+  Add to your finder: :include => [:ratings]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /var/www/project_workr/workr-web/app/models/article.rb:46:in `average_rating'
+  /var/www/project_workr/workr-web/app/controllers/api/v1/articles_controller.rb:16:in `index'2014-01-31 16:39:45[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-01-31 16:40:09[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+N+1 Query detected
+  HtmlArticle => [:ratings]
+  Add to your finder: :include => [:ratings]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /var/www/project_workr/workr-web/app/models/article.rb:46:in `average_rating'
+  /var/www/project_workr/workr-web/app/controllers/api/v1/articles_controller.rb:16:in `index'2014-01-31 16:40:09[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-01-31 16:40:35[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+N+1 Query detected
+  HtmlArticle => [:ratings]
+  Add to your finder: :include => [:ratings]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /var/www/project_workr/workr-web/app/models/article.rb:46:in `average_rating'
+  /var/www/project_workr/workr-web/app/controllers/api/v1/articles_controller.rb:16:in `index'2014-01-31 16:40:35[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-01-31 16:40:50[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+N+1 Query detected
+  HtmlArticle => [:ratings]
+  Add to your finder: :include => [:ratings]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /var/www/project_workr/workr-web/app/models/article.rb:46:in `average_rating'
+  /var/www/project_workr/workr-web/app/controllers/api/v1/articles_controller.rb:16:in `index'2014-01-31 16:40:50[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-01-31 16:41:19[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+N+1 Query detected
+  HtmlArticle => [:ratings]
+  Add to your finder: :include => [:ratings]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /var/www/project_workr/workr-web/app/models/article.rb:46:in `average_rating'
+  /var/www/project_workr/workr-web/app/controllers/api/v1/articles_controller.rb:16:in `index'2014-01-31 16:41:19[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-01-31 16:41:41[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+N+1 Query detected
+  HtmlArticle => [:ratings]
+  Add to your finder: :include => [:ratings]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /var/www/project_workr/workr-web/app/models/article.rb:46:in `average_rating'
+  /var/www/project_workr/workr-web/app/controllers/api/v1/articles_controller.rb:16:in `index'2014-01-31 16:41:41[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-01-31 17:22:54[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=2
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-01-31 17:23:13[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+N+1 Query detected
+  HtmlArticle => [:ratings]
+  Add to your finder: :include => [:ratings]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /var/www/project_workr/workr-web/app/models/article.rb:46:in `average_rating'
+  /var/www/project_workr/workr-web/app/controllers/api/v1/articles_controller.rb:16:in `index'2014-01-31 17:23:13[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-01-31 17:27:45[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+N+1 Query detected
+  HtmlArticle => [:ratings]
+  Add to your finder: :include => [:ratings]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /var/www/project_workr/workr-web/app/models/article.rb:46:in `average_rating'
+  /var/www/project_workr/workr-web/app/controllers/api/v1/articles_controller.rb:16:in `index'2014-01-31 17:27:45[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-01-31 17:29:12[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+N+1 Query detected
+  HtmlArticle => [:ratings]
+  Add to your finder: :include => [:ratings]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /var/www/project_workr/workr-web/app/models/article.rb:46:in `average_rating'
+  /var/www/project_workr/workr-web/app/controllers/api/v1/articles_controller.rb:16:in `index'2014-01-31 17:29:12[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-01-31 17:29:39[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+N+1 Query detected
+  HtmlArticle => [:ratings]
+  Add to your finder: :include => [:ratings]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /var/www/project_workr/workr-web/app/models/article.rb:46:in `average_rating'
+  /var/www/project_workr/workr-web/app/controllers/api/v1/articles_controller.rb:16:in `index'2014-01-31 17:29:39[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-01-31 17:43:11[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+N+1 Query detected
+  HtmlArticle => [:ratings]
+  Add to your finder: :include => [:ratings]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /var/www/project_workr/workr-web/app/models/article.rb:46:in `average_rating'
+  /var/www/project_workr/workr-web/app/controllers/api/v1/articles_controller.rb:16:in `index'2014-01-31 17:43:11[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-01-31 17:45:13[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+N+1 Query detected
+  HtmlArticle => [:ratings]
+  Add to your finder: :include => [:ratings]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /var/www/project_workr/workr-web/app/models/article.rb:46:in `average_rating'
+  /var/www/project_workr/workr-web/app/controllers/api/v1/articles_controller.rb:16:in `index'2014-01-31 17:45:13[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-01-31 17:45:31[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+N+1 Query detected
+  HtmlArticle => [:ratings]
+  Add to your finder: :include => [:ratings]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /var/www/project_workr/workr-web/app/models/article.rb:46:in `average_rating'
+  /var/www/project_workr/workr-web/app/controllers/api/v1/articles_controller.rb:16:in `index'2014-01-31 17:45:31[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-01-31 17:47:30[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+N+1 Query detected
+  HtmlArticle => [:ratings]
+  Add to your finder: :include => [:ratings]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /var/www/project_workr/workr-web/app/models/article.rb:46:in `average_rating'
+  /var/www/project_workr/workr-web/app/controllers/api/v1/articles_controller.rb:16:in `index'2014-01-31 17:47:30[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-01-31 17:47:53[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+N+1 Query detected
+  HtmlArticle => [:ratings]
+  Add to your finder: :include => [:ratings]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /var/www/project_workr/workr-web/app/models/article.rb:46:in `average_rating'
+  /var/www/project_workr/workr-web/app/controllers/api/v1/articles_controller.rb:16:in `index'2014-01-31 17:47:53[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-01-31 17:48:08[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+N+1 Query detected
+  HtmlArticle => [:ratings]
+  Add to your finder: :include => [:ratings]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /var/www/project_workr/workr-web/app/models/article.rb:46:in `average_rating'
+  /var/www/project_workr/workr-web/app/controllers/api/v1/articles_controller.rb:16:in `index'2014-01-31 17:48:08[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-01-31 17:53:32[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=2
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-01-31 17:55:20[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+N+1 Query detected
+  HtmlArticle => [:ratings]
+  Add to your finder: :include => [:ratings]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /var/www/project_workr/workr-web/app/models/article.rb:46:in `average_rating'
+  /var/www/project_workr/workr-web/app/controllers/api/v1/articles_controller.rb:16:in `index'2014-01-31 17:55:20[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-01-31 17:59:38[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+N+1 Query detected
+  HtmlArticle => [:ratings]
+  Add to your finder: :include => [:ratings]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /var/www/project_workr/workr-web/app/models/article.rb:46:in `average_rating'
+  /var/www/project_workr/workr-web/app/controllers/api/v1/articles_controller.rb:16:in `index'2014-01-31 17:59:38[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-01-31 18:00:26[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+N+1 Query detected
+  HtmlArticle => [:ratings]
+  Add to your finder: :include => [:ratings]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /var/www/project_workr/workr-web/app/models/article.rb:46:in `average_rating'
+  /var/www/project_workr/workr-web/app/controllers/api/v1/articles_controller.rb:16:in `index'2014-01-31 18:00:26[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-01-31 18:01:27[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+N+1 Query detected
+  HtmlArticle => [:ratings]
+  Add to your finder: :include => [:ratings]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /var/www/project_workr/workr-web/app/models/article.rb:46:in `average_rating'
+  /var/www/project_workr/workr-web/app/controllers/api/v1/articles_controller.rb:16:in `index'2014-01-31 18:01:27[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-01-31 18:02:37[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+N+1 Query detected
+  HtmlArticle => [:ratings]
+  Add to your finder: :include => [:ratings]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /var/www/project_workr/workr-web/app/models/article.rb:46:in `average_rating'
+  /var/www/project_workr/workr-web/app/controllers/api/v1/articles_controller.rb:16:in `index'2014-01-31 18:02:37[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-01-31 18:03:20[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+N+1 Query detected
+  HtmlArticle => [:ratings]
+  Add to your finder: :include => [:ratings]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /var/www/project_workr/workr-web/app/models/article.rb:46:in `average_rating'
+  /var/www/project_workr/workr-web/app/controllers/api/v1/articles_controller.rb:16:in `index'2014-01-31 18:03:20[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-01-31 18:04:27[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+N+1 Query detected
+  HtmlArticle => [:ratings]
+  Add to your finder: :include => [:ratings]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /var/www/project_workr/workr-web/app/models/article.rb:46:in `average_rating'
+  /var/www/project_workr/workr-web/app/controllers/api/v1/articles_controller.rb:16:in `index'2014-01-31 18:04:27[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-01-31 18:06:15[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+N+1 Query detected
+  HtmlArticle => [:ratings]
+  Add to your finder: :include => [:ratings]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /var/www/project_workr/workr-web/app/models/article.rb:46:in `average_rating'
+  /var/www/project_workr/workr-web/app/controllers/api/v1/articles_controller.rb:16:in `index'2014-01-31 18:06:15[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-01-31 18:07:44[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+N+1 Query detected
+  HtmlArticle => [:ratings]
+  Add to your finder: :include => [:ratings]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /var/www/project_workr/workr-web/app/models/article.rb:46:in `average_rating'
+  /var/www/project_workr/workr-web/app/controllers/api/v1/articles_controller.rb:16:in `index'2014-01-31 18:07:44[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-01-31 18:08:07[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+N+1 Query detected
+  HtmlArticle => [:ratings]
+  Add to your finder: :include => [:ratings]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /var/www/project_workr/workr-web/app/models/article.rb:46:in `average_rating'
+  /var/www/project_workr/workr-web/app/controllers/api/v1/articles_controller.rb:16:in `index'2014-01-31 18:08:07[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-01-31 18:08:27[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+N+1 Query detected
+  HtmlArticle => [:ratings]
+  Add to your finder: :include => [:ratings]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /var/www/project_workr/workr-web/app/models/article.rb:46:in `average_rating'
+  /var/www/project_workr/workr-web/app/controllers/api/v1/articles_controller.rb:16:in `index'2014-01-31 18:08:27[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-01-31 18:13:08[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+N+1 Query detected
+  HtmlArticle => [:ratings]
+  Add to your finder: :include => [:ratings]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /var/www/project_workr/workr-web/app/models/article.rb:46:in `average_rating'
+  /var/www/project_workr/workr-web/app/controllers/api/v1/articles_controller.rb:16:in `index'2014-01-31 18:13:09[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-01-31 18:13:38[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+N+1 Query detected
+  HtmlArticle => [:ratings]
+  Add to your finder: :include => [:ratings]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /var/www/project_workr/workr-web/app/models/article.rb:46:in `average_rating'
+  /var/www/project_workr/workr-web/app/controllers/api/v1/articles_controller.rb:16:in `index'2014-01-31 18:13:38[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-01-31 18:14:28[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+N+1 Query detected
+  HtmlArticle => [:ratings]
+  Add to your finder: :include => [:ratings]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /var/www/project_workr/workr-web/app/models/article.rb:46:in `average_rating'
+  /var/www/project_workr/workr-web/app/controllers/api/v1/articles_controller.rb:16:in `index'2014-01-31 18:14:28[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-01-31 18:14:44[WARN] user: tariq
+localhost:3000http://localhost:3000/api/collections/1/articles
+N+1 Query detected
+  HtmlArticle => [:ratings]
+  Add to your finder: :include => [:ratings]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /var/www/project_workr/workr-web/app/models/article.rb:46:in `average_rating'
+  /var/www/project_workr/workr-web/app/controllers/api/v1/articles_controller.rb:16:in `index'2014-01-31 18:14:44[WARN] user: tariq
+localhost:3000http://localhost:3000/api/collections/1/articles
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-01-31 18:16:23[WARN] user: tariq
+localhost:3000http://localhost:3000/api/collections/1/articles
+N+1 Query detected
+  HtmlArticle => [:ratings]
+  Add to your finder: :include => [:ratings]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /var/www/project_workr/workr-web/app/models/article.rb:46:in `average_rating'
+  /var/www/project_workr/workr-web/app/controllers/api/v1/articles_controller.rb:16:in `index'2014-01-31 18:16:23[WARN] user: tariq
+localhost:3000http://localhost:3000/api/collections/1/articles
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-01-31 18:16:24[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+N+1 Query detected
+  HtmlArticle => [:ratings]
+  Add to your finder: :include => [:ratings]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /var/www/project_workr/workr-web/app/models/article.rb:46:in `average_rating'
+  /var/www/project_workr/workr-web/app/controllers/api/v1/articles_controller.rb:16:in `index'2014-01-31 18:16:24[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-01-31 18:16:43[WARN] user: tariq
+localhost:3000http://localhost:3000/api/collections/1/articles
+N+1 Query detected
+  HtmlArticle => [:ratings]
+  Add to your finder: :include => [:ratings]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /var/www/project_workr/workr-web/app/models/article.rb:46:in `average_rating'
+  /var/www/project_workr/workr-web/app/controllers/api/v1/articles_controller.rb:16:in `index'2014-01-31 18:16:43[WARN] user: tariq
+localhost:3000http://localhost:3000/api/collections/1/articles
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-01-31 18:16:43[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+N+1 Query detected
+  HtmlArticle => [:ratings]
+  Add to your finder: :include => [:ratings]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /var/www/project_workr/workr-web/app/models/article.rb:46:in `average_rating'
+  /var/www/project_workr/workr-web/app/controllers/api/v1/articles_controller.rb:16:in `index'2014-01-31 18:16:43[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-01-31 18:17:47[WARN] user: tariq
+localhost:3000http://localhost:3000/api/collections/1/articles
+N+1 Query detected
+  HtmlArticle => [:ratings]
+  Add to your finder: :include => [:ratings]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /var/www/project_workr/workr-web/app/models/article.rb:46:in `average_rating'
+  /var/www/project_workr/workr-web/app/controllers/api/v1/articles_controller.rb:16:in `index'2014-01-31 18:17:47[WARN] user: tariq
+localhost:3000http://localhost:3000/api/collections/1/articles
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-01-31 18:18:00[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+N+1 Query detected
+  HtmlArticle => [:ratings]
+  Add to your finder: :include => [:ratings]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /var/www/project_workr/workr-web/app/models/article.rb:46:in `average_rating'
+  /var/www/project_workr/workr-web/app/controllers/api/v1/articles_controller.rb:16:in `index'2014-01-31 18:18:00[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-01-31 18:48:56[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+N+1 Query detected
+  HtmlArticle => [:ratings]
+  Add to your finder: :include => [:ratings]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /var/www/project_workr/workr-web/app/models/article.rb:46:in `average_rating'
+  /var/www/project_workr/workr-web/app/controllers/api/v1/articles_controller.rb:16:in `index'2014-01-31 18:48:56[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-02-03 10:19:36[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+N+1 Query detected
+  HtmlArticle => [:ratings]
+  Add to your finder: :include => [:ratings]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /var/www/project_workr/workr-web/app/models/article.rb:46:in `average_rating'
+  /var/www/project_workr/workr-web/app/controllers/api/v1/articles_controller.rb:16:in `index'2014-02-03 10:19:36[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-02-03 10:23:04[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+N+1 Query detected
+  HtmlArticle => [:ratings]
+  Add to your finder: :include => [:ratings]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /var/www/project_workr/workr-web/app/models/article.rb:46:in `average_rating'
+  /var/www/project_workr/workr-web/app/controllers/api/v1/articles_controller.rb:16:in `index'2014-02-03 10:23:04[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-02-03 10:24:01[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+N+1 Query detected
+  HtmlArticle => [:ratings]
+  Add to your finder: :include => [:ratings]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /var/www/project_workr/workr-web/app/models/article.rb:46:in `average_rating'
+  /var/www/project_workr/workr-web/app/controllers/api/v1/articles_controller.rb:16:in `index'2014-02-03 10:24:01[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-02-03 10:25:25[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+N+1 Query detected
+  HtmlArticle => [:ratings]
+  Add to your finder: :include => [:ratings]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /var/www/project_workr/workr-web/app/models/article.rb:46:in `average_rating'
+  /var/www/project_workr/workr-web/app/controllers/api/v1/articles_controller.rb:16:in `index'2014-02-03 10:25:25[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-02-03 10:27:27[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+N+1 Query detected
+  HtmlArticle => [:ratings]
+  Add to your finder: :include => [:ratings]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /var/www/project_workr/workr-web/app/models/article.rb:46:in `average_rating'
+  /var/www/project_workr/workr-web/app/controllers/api/v1/articles_controller.rb:16:in `index'2014-02-03 10:27:27[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-02-03 10:29:27[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=2
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-02-03 10:30:19[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=2
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-02-03 10:30:55[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+N+1 Query detected
+  HtmlArticle => [:ratings]
+  Add to your finder: :include => [:ratings]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /var/www/project_workr/workr-web/app/models/article.rb:46:in `average_rating'
+  /var/www/project_workr/workr-web/app/controllers/api/v1/articles_controller.rb:16:in `index'2014-02-03 10:30:55[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-02-03 10:31:57[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+N+1 Query detected
+  HtmlArticle => [:ratings]
+  Add to your finder: :include => [:ratings]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /var/www/project_workr/workr-web/app/models/article.rb:46:in `average_rating'
+  /var/www/project_workr/workr-web/app/controllers/api/v1/articles_controller.rb:16:in `index'2014-02-03 10:31:57[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-02-03 10:36:21[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+N+1 Query detected
+  HtmlArticle => [:ratings]
+  Add to your finder: :include => [:ratings]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /var/www/project_workr/workr-web/app/models/article.rb:46:in `average_rating'
+  /var/www/project_workr/workr-web/app/controllers/api/v1/articles_controller.rb:16:in `index'2014-02-03 10:36:21[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-02-03 10:38:28[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=2
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-02-03 10:41:45[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=2
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-02-03 10:41:54[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+N+1 Query detected
+  HtmlArticle => [:ratings]
+  Add to your finder: :include => [:ratings]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /var/www/project_workr/workr-web/app/models/article.rb:46:in `average_rating'
+  /var/www/project_workr/workr-web/app/controllers/api/v1/articles_controller.rb:16:in `index'2014-02-03 10:41:54[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-02-03 10:42:11[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+N+1 Query detected
+  HtmlArticle => [:ratings]
+  Add to your finder: :include => [:ratings]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /var/www/project_workr/workr-web/app/models/article.rb:46:in `average_rating'
+  /var/www/project_workr/workr-web/app/controllers/api/v1/articles_controller.rb:16:in `index'2014-02-03 10:42:11[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-02-03 10:42:23[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+N+1 Query detected
+  HtmlArticle => [:ratings]
+  Add to your finder: :include => [:ratings]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /var/www/project_workr/workr-web/app/models/article.rb:46:in `average_rating'
+  /var/www/project_workr/workr-web/app/controllers/api/v1/articles_controller.rb:16:in `index'2014-02-03 10:42:23[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-02-03 10:42:38[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=2
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-02-03 10:42:53[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+N+1 Query detected
+  HtmlArticle => [:ratings]
+  Add to your finder: :include => [:ratings]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /var/www/project_workr/workr-web/app/models/article.rb:46:in `average_rating'
+  /var/www/project_workr/workr-web/app/controllers/api/v1/articles_controller.rb:16:in `index'2014-02-03 10:42:53[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-02-03 10:43:13[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+N+1 Query detected
+  HtmlArticle => [:ratings]
+  Add to your finder: :include => [:ratings]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /var/www/project_workr/workr-web/app/models/article.rb:46:in `average_rating'
+  /var/www/project_workr/workr-web/app/controllers/api/v1/articles_controller.rb:16:in `index'2014-02-03 10:43:13[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-02-03 10:50:47[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=2
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-02-03 10:51:04[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=2
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-02-03 10:51:19[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+N+1 Query detected
+  HtmlArticle => [:ratings]
+  Add to your finder: :include => [:ratings]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /var/www/project_workr/workr-web/app/models/article.rb:46:in `average_rating'
+  /var/www/project_workr/workr-web/app/controllers/api/v1/articles_controller.rb:16:in `index'2014-02-03 10:51:19[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-02-03 10:51:36[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+N+1 Query detected
+  HtmlArticle => [:ratings]
+  Add to your finder: :include => [:ratings]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /var/www/project_workr/workr-web/app/models/article.rb:46:in `average_rating'
+  /var/www/project_workr/workr-web/app/controllers/api/v1/articles_controller.rb:16:in `index'2014-02-03 10:51:36[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-02-03 10:52:31[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+N+1 Query detected
+  HtmlArticle => [:ratings]
+  Add to your finder: :include => [:ratings]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /var/www/project_workr/workr-web/app/models/article.rb:46:in `average_rating'
+  /var/www/project_workr/workr-web/app/controllers/api/v1/articles_controller.rb:16:in `index'2014-02-03 10:52:31[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-02-03 11:00:53[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=2
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-02-03 11:01:39[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+N+1 Query detected
+  HtmlArticle => [:ratings]
+  Add to your finder: :include => [:ratings]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /var/www/project_workr/workr-web/app/models/article.rb:46:in `average_rating'
+  /var/www/project_workr/workr-web/app/controllers/api/v1/articles_controller.rb:16:in `index'2014-02-03 11:01:39[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-02-03 11:02:15[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+N+1 Query detected
+  HtmlArticle => [:ratings]
+  Add to your finder: :include => [:ratings]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /var/www/project_workr/workr-web/app/models/article.rb:46:in `average_rating'
+  /var/www/project_workr/workr-web/app/controllers/api/v1/articles_controller.rb:16:in `index'2014-02-03 11:02:15[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-02-03 11:02:54[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=2
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-02-03 11:03:49[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+N+1 Query detected
+  HtmlArticle => [:ratings]
+  Add to your finder: :include => [:ratings]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /var/www/project_workr/workr-web/app/models/article.rb:46:in `average_rating'
+  /var/www/project_workr/workr-web/app/controllers/api/v1/articles_controller.rb:16:in `index'2014-02-03 11:03:49[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-02-03 11:50:22[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+N+1 Query detected
+  HtmlArticle => [:ratings]
+  Add to your finder: :include => [:ratings]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /var/www/project_workr/workr-web/app/models/article.rb:46:in `average_rating'
+  /var/www/project_workr/workr-web/app/controllers/api/v1/articles_controller.rb:16:in `index'2014-02-03 11:50:22[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-02-03 11:50:54[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+N+1 Query detected
+  HtmlArticle => [:ratings]
+  Add to your finder: :include => [:ratings]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /var/www/project_workr/workr-web/app/models/article.rb:46:in `average_rating'
+  /var/www/project_workr/workr-web/app/controllers/api/v1/articles_controller.rb:16:in `index'2014-02-03 11:50:54[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-02-03 11:51:16[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+N+1 Query detected
+  HtmlArticle => [:ratings]
+  Add to your finder: :include => [:ratings]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /var/www/project_workr/workr-web/app/models/article.rb:46:in `average_rating'
+  /var/www/project_workr/workr-web/app/controllers/api/v1/articles_controller.rb:16:in `index'2014-02-03 11:51:16[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-02-03 11:51:38[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=2
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-02-03 11:59:47[WARN] user: tariq
+10.0.1.22:3000http://10.0.1.22:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+N+1 Query detected
+  HtmlArticle => [:ratings]
+  Add to your finder: :include => [:ratings]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /var/www/project_workr/workr-web/app/models/article.rb:46:in `average_rating'
+  /var/www/project_workr/workr-web/app/controllers/api/v1/articles_controller.rb:16:in `index'2014-02-03 11:59:47[WARN] user: tariq
+10.0.1.22:3000http://10.0.1.22:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-02-03 12:00:18[WARN] user: tariq
+10.0.1.22:3000http://10.0.1.22:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+N+1 Query detected
+  HtmlArticle => [:ratings]
+  Add to your finder: :include => [:ratings]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /var/www/project_workr/workr-web/app/models/article.rb:46:in `average_rating'
+  /var/www/project_workr/workr-web/app/controllers/api/v1/articles_controller.rb:16:in `index'2014-02-03 12:00:18[WARN] user: tariq
+10.0.1.22:3000http://10.0.1.22:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]2014-02-03 12:02:53[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+N+1 Query detected
+  HtmlArticle => [:ratings]
+  Add to your finder: :include => [:ratings]
+N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  N+1 Query method call stack
+  /var/www/project_workr/workr-web/app/models/article.rb:46:in `average_rating'
+  /var/www/project_workr/workr-web/app/controllers/api/v1/articles_controller.rb:16:in `index'2014-02-03 12:02:53[WARN] user: tariq
+localhost:3000http://localhost:3000/api/articles?ids%5B%5D=1&ids%5B%5D=2
+Unused Eager Loading detected
+  HtmlArticle => [:content_source, :tags]
+  Remove from your finder: :include => [:content_source, :tags]

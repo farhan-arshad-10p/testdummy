@@ -1,0 +1,26 @@
+- unless @article.errors.empty?
+  .flashes
+    .flash.flash_error
+      %ul
+        - @article.errors.each do |error|
+          %li= error
+= form_tag(create_clip_admin_articles_path, method: :post, class: 'inputs') do
+  %fieldset.inputs
+    %ol
+      %li
+        = label_tag('clip[url]', 'URL')
+        = url_field(:clip, :url, value: @clip.url)
+      %li
+        = label_tag('clip[title]', 'Title')
+        = text_field(:clip, :title, placeholder: "Leave blank to use Embed.ly's content", value: @clip.title)
+      %li
+        = label_tag('clip[description]', 'Description')
+        = text_area(:clip, :description, placeholder: "Leave blank to use Embed.ly's content", value: @clip.content)
+      %li
+        = label_tag('clip[collection]', 'Collection')
+        = select(:clip, :collection, Collection.all.collect {|c| [ "#{c.name} (#{c.user.full_name})", c.id ] })
+      %li
+        = label_tag('clip[tags]', 'Tags')
+        = text_field(:clip, :tags, placeholder: "Comma separated...", value: @clip.tags)
+      %li
+        = submit_tag("Clip")

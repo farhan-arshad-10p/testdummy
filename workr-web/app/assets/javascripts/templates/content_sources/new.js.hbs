@@ -1,0 +1,21 @@
+{{#if controllers.application.inFrame}}
+{{else}}
+<h2>Clip</h2>
+{{/if}}
+<div class="well col-md-6">
+  <form role="form">
+    {{#view App.FormGroup errorsBinding="errors.url"}}
+      <label for="content-source-url" class="control-label">From a URL</label>
+      {{view Ember.TextField valueBinding="url" id="content-source-url" placeholder="Url to clip" class="form-control"}}
+    {{/view}}
+
+    <div class="form-group">
+      <button type="submit" class="btn btn-default" {{action "save" this}}>Clip</button>
+    </div>
+  </form>
+</div>
+
+<div class="well col-md-5 col-offset-1">
+  <label class="control-label">From an Uploaded File</label>
+  <input class="app-content-source-file" type="file" name="content_source[file]" accept="image/jpg, image/jpeg, image/gif, image/png, image/x-png, image/pjpeg, text/plain, text/rtf, application/msword, application/vnd.openxmlformats-officedocument.wordprocessingml.document, application/vnd.ms-excel, application/vnd.openxmlformats-officedocument.spreadsheetml.sheet, application/vnd.ms-powerpoint, application/vnd.openxmlformats-officedocument.presentationml.presentation, application/pdf, application/x-pdf, application/acrobat, applications/vnd.pdf, text/pdf, text/x-pdf" />
+</div>

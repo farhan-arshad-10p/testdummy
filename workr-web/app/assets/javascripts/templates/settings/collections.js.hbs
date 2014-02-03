@@ -1,0 +1,14 @@
+<div id="collections" class="col-md-12">
+  <div class="col-md-4 app-new-collection">
+    {{#link-to 'collections.new' class='collection-card create-collection'}}
+      <br />
+      <br />
+      <br />
+      <h1 class="glyphicon glyphicon-file"></h1>
+      <h4>New Collection</h4>
+    {{/link-to}}
+  </div>
+  {{#each collections}}
+    {{partial collection}}
+  {{/each}}
+</div>

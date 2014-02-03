@@ -1,0 +1,1 @@
+class HtmlArticle < Article;end 

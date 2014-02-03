@@ -1,0 +1,17 @@
+{{#view App.FormGroup errorsBinding="errors.title"}}
+  <label for="article-title" class="control-label">Title</label>
+  {{view Ember.TextField valueBinding="title"  id="article-title" placeholder="What's your title?" class="form-control" classNameBindings="controllers.application.inFrame:input-sm"}}
+{{/view}}
+
+{{#view App.FormGroup errorsBinding="errors.description"}}
+  <label for="article-description" class="control-label">TL;DR</label>
+  {{view Ember.TextArea valueBinding="description" id="article-description" placeholder="A short summary" class="form-control" classNameBindings="controllers.application.inFrame:input-sm"}}
+{{/view}}
+{{#view App.FormGroup errorsBinding="errors.tag_list"}}
+  <label for="article-tags" class="control-label">Tags</label>
+  {{view Ember.TextField valueBinding="tag_list" id="article-tags" placeholder="Tags" class="form-control" classNameBindings="controllers.application.inFrame:input-sm"}}
+{{/view}}
+
+{{#if controllers.application.inFrame}}
+{{else}}
+{{/if}}

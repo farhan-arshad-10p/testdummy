@@ -1,0 +1,25 @@
+<div class="row username">
+  <div class="visibly-hidden">
+    <h6>Pick a new avatar</h6>
+    <input class="app-avatar-file" type="file" name="user[avatar]" accept="image/jpg, image/jpeg, image/gif, image/png, image/x-png, image/pjpeg" />
+  </div>
+
+  <div class="col-md-12">
+    <img {{bindAttr src="avatar_url"}} width="200px" />
+    <h3>{{full_name}} <small><a href="" class="app-avatar-file-trigger">(change avatar)</a></small></h3>
+  </div>
+</div>
+
+
+<div class="row">
+  <div class="col-md-12">
+    <div class="btn-group btn-group-justified">
+      {{#linkTo "settings" class="btn btn-default"}}Settings{{/linkTo}}
+      {{#linkTo "settings.collections" class="btn btn-default"}}Collections <span class='badge app-collection-count'>{{collection_count}}</span>{{/linkTo}}
+      {{#linkTo "settings.following" class="btn btn-default"}}Following <span class='badge app-following-count'>{{following_count}}</span>{{/linkTo}}
+    </div>
+    <br />
+  </div>
+</div>
+
+{{outlet}}

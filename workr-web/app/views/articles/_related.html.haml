@@ -1,0 +1,10 @@
+.panel
+  %h4.panel-title= t('.related_articles_title')
+  -#################################
+  -# NO DIALOG FROM BELOW CODE
+  -# Sync with team on better approach
+  %ul.list-group
+    - @related_articles.each do |article|
+      %li.list-group-item
+        %a{href: article_path(article), "data-toggle" => "modal", "data-target" => "#view-article-#{article.id}"}= article.title
+  -#################################

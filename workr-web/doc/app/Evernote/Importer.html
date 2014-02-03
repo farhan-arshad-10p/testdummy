@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+
+<title>class Evernote::Importer - Rails Application Documentation</title>
+
+<link type="text/css" media="screen" href="../rdoc.css" rel="stylesheet">
+
+<script type="text/javascript">
+  var rdoc_rel_prefix = "../";
+</script>
+
+<script type="text/javascript" charset="utf-8" src="../js/jquery.js"></script>
+<script type="text/javascript" charset="utf-8" src="../js/navigation.js"></script>
+<script type="text/javascript" charset="utf-8" src="../js/search_index.js"></script>
+<script type="text/javascript" charset="utf-8" src="../js/search.js"></script>
+<script type="text/javascript" charset="utf-8" src="../js/searcher.js"></script>
+<script type="text/javascript" charset="utf-8" src="../js/darkfish.js"></script>
+
+
+<body id="top" class="class">
+<nav id="metadata">
+  <nav id="home-section" class="section">
+  <h3 class="section-header">
+    <a href="../index.html">Home</a>
+    <a href="../table_of_contents.html#classes">Classes</a>
+    <a href="../table_of_contents.html#methods">Methods</a>
+  </h3>
+</nav>
+
+
+  <nav id="search-section" class="section project-section" class="initially-hidden">
+  <form action="#" method="get" accept-charset="utf-8">
+    <h3 class="section-header">
+      <input type="text" name="search" placeholder="Search" id="search-field"
+             title="Type to search, Up and Down to navigate, Enter to load">
+    </h3>
+  </form>
+
+  <ul id="search-results" class="initially-hidden"></ul>
+</nav>
+
+
+  
+
+  <div id="file-metadata">
+    <nav id="file-list-section" class="section">
+  <h3 class="section-header">Defined In</h3>
+  <ul>
+    <li>lib/evernote/importer.rb
+  </ul>
+</nav>
+
+    
+  </div>
+
+  <div id="class-metadata">
+    
+    <nav id="parent-class-section" class="section">
+  <h3 class="section-header">Parent</h3>
+  
+  <p class="link"><a href="../Object.html">Object</a>
+  
+</nav>
+
+    
+    
+    <!-- Method Quickref -->
+<nav id="method-list-section" class="section">
+  <h3 class="section-header">Methods</h3>
+
+  <ul class="link-list">
+    
+    <li ><a href="#method-c-import">::import</a>
+    
+    <li ><a href="#method-c-import_directory">::import_directory</a>
+    
+    <li ><a href="#method-c-import_missing_from_directory">::import_missing_from_directory</a>
+    
+  </ul>
+</nav>
+
+  </div>
+
+  <div id="project-metadata">
+    <nav id="fileindex-section" class="section project-section">
+  <h3 class="section-header">Pages</h3>
+
+  <ul>
+  
+    <li class="file"><a href="../README_rdoc.html">README</a>
+  
+  </ul>
+</nav>
+
+    <nav id="classindex-section" class="section project-section">
+  <h3 class="section-header">Class and Module Index</h3>
+
+  <ul class="link-list">
+  
+    <li><a href="../ActsAsTaggableOn.html">ActsAsTaggableOn</a>
+  
+    <li><a href="../AdminUser.html">AdminUser</a>
+  
+    <li><a href="../Api.html">Api</a>
+  
+    <li><a href="../Api/ApplicationController.html">Api::ApplicationController</a>
+  
+    <li><a href="../Api/V1.html">Api::V1</a>
+  
+    <li><a href="../Api/V1/ArticleSerializer.html">Api::V1::ArticleSerializer</a>
+  
+    <li><a href="../Api/V1/ArticlesController.html">Api::V1::ArticlesController</a>
+  
+    <li><a href="../Api/V1/AvatarsController.html">Api::V1::AvatarsController</a>
+  
+    <li><a href="../Api/V1/CollectionSerializer.html">Api::V1::CollectionSerializer</a>
+  
+    <li><a href="../Api/V1/CollectionsController.html">Api::V1::CollectionsController</a>
+  
+    <li><a href="../Api/V1/ContentSourceSerializer.html">Api::V1::ContentSourceSerializer</a>
+  
+    <li><a href="../Api/V1/ContentSourcesController.html">Api::V1::ContentSourcesController</a>
+  
+    <li><a href="../Api/V1/FeedSerializer.html">Api::V1::FeedSerializer</a>
+  
+    <li><a href="../Api/V1/FeedsController.html">Api::V1::FeedsController</a>
+  
+    <li><a href="../Api/V1/FlagsController.html">Api::V1::FlagsController</a>
+  
+    <li><a href="../Api/V1/InterestSerializer.html">Api::V1::InterestSerializer</a>
+  
+    <li><a href="../Api/V1/InterestsController.html">Api::V1::InterestsController</a>
+  
+    <li><a href="../Api/V1/RatingSerializer.html">Api::V1::RatingSerializer</a>
+  
+    <li><a href="../Api/V1/RatingsController.html">Api::V1::RatingsController</a>
+  
+    <li><a href="../Api/V1/UserSerializer.html">Api::V1::UserSerializer</a>
+  
+    <li><a href="../Api/V1/UsersController.html">Api::V1::UsersController</a>
+  
+    <li><a href="../Api/V1/ViewedArticleSerializer.html">Api::V1::ViewedArticleSerializer</a>
+  
+    <li><a href="../Api/V1/ViewedArticlesController.html">Api::V1::ViewedArticlesController</a>
+  
+    <li><a href="../ApiConstraints.html">ApiConstraints</a>
+  
+    <li><a href="../ApplicationController.html">ApplicationController</a>
+  
+    <li><a href="../ApplicationHelper.html">ApplicationHelper</a>
+  
+    <li><a href="../Article.html">Article</a>
+  
+    <li><a href="../ArticleManager.html">ArticleManager</a>
+  
+    <li><a href="../ClipController.html">ClipController</a>
+  
+    <li><a href="../Clipper.html">Clipper</a>
+  
+    <li><a href="../Clipper/Importer.html">Clipper::Importer</a>
+  
+    <li><a href="../Clipper/Parser.html">Clipper::Parser</a>
+  
+    <li><a href="../Collection.html">Collection</a>
+  
+    <li><a href="../ContentSource.html">ContentSource</a>
+  
+    <li><a href="../ContentSourceManager.html">ContentSourceManager</a>
+  
+    <li><a href="../Evernote.html">Evernote</a>
+  
+    <li><a href="../Evernote/Importer.html">Evernote::Importer</a>
+  
+    <li><a href="../FeedPresenter.html">FeedPresenter</a>
+  
+    <li><a href="../FileArticle.html">FileArticle</a>
+  
+    <li><a href="../Flag.html">Flag</a>
+  
+    <li><a href="../HostedFile.html">HostedFile</a>
+  
+    <li><a href="../HtmlArticle.html">HtmlArticle</a>
+  
+    <li><a href="../ImageArticle.html">ImageArticle</a>
+  
+    <li><a href="../Interest.html">Interest</a>
+  
+    <li><a href="../Invite.html">Invite</a>
+  
+    <li><a href="../Object.html">Object</a>
+  
+    <li><a href="../PageExtractor.html">PageExtractor</a>
+  
+    <li><a href="../Presenter.html">Presenter</a>
+  
+    <li><a href="../Rating.html">Rating</a>
+  
+    <li><a href="../RatingsManager.html">RatingsManager</a>
+  
+    <li><a href="../RegistrationsController.html">RegistrationsController</a>
+  
+    <li><a href="../Relationship.html">Relationship</a>
+  
+    <li><a href="../SiteController.html">SiteController</a>
+  
+    <li><a href="../User.html">User</a>
+  
+    <li><a href="../UserManager.html">UserManager</a>
+  
+    <li><a href="../Users.html">Users</a>
+  
+    <li><a href="../Users/OmniauthCallbacksController.html">Users::OmniauthCallbacksController</a>
+  
+    <li><a href="../VideoArticle.html">VideoArticle</a>
+  
+    <li><a href="../ViewedArticle.html">ViewedArticle</a>
+  
+    <li><a href="../WorkrSettings.html">WorkrSettings</a>
+  
+  </ul>
+</nav>
+
+  </div>
+</nav>
+
+<div id="documentation">
+  <h1 class="class">class Evernote::Importer</h1>
+
+  <div id="description" class="description">
+    
+  </div><!-- description -->
+
+  
+  
+  
+  <section id="5Buntitled-5D" class="documentation-section">
+    
+
+    
+
+    
+
+    
+
+    <!-- Methods -->
+    
+     <section id="public-class-5Buntitled-5D-method-details" class="method-section section">
+      <h3 class="section-header">Public Class Methods</h3>
+
+    
+      <div id="method-c-import" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">import</span><span
+            class="method-args">(data, collection_id, logger, bar=nil)</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+          
+
+          
+          <div class="method-source-code" id="import-source">
+            <pre><span class="ruby-comment"># File lib/evernote/importer.rb, line 3</span>
+<span class="ruby-keyword">def</span> <span class="ruby-keyword">self</span>.<span class="ruby-identifier">import</span>(<span class="ruby-identifier">data</span>, <span class="ruby-identifier">collection_id</span>, <span class="ruby-identifier">logger</span>, <span class="ruby-identifier">bar</span>=<span class="ruby-keyword">nil</span>)
+  <span class="ruby-identifier">collection</span> = <span class="ruby-constant">Collection</span>.<span class="ruby-identifier">find_by</span>(<span class="ruby-identifier">id</span><span class="ruby-operator">:</span> <span class="ruby-identifier">collection_id</span>)
+  <span class="ruby-identifier">rows</span> = <span class="ruby-constant">Clipper</span><span class="ruby-operator">::</span><span class="ruby-constant">Parser</span>.<span class="ruby-identifier">parse_evernote</span>(<span class="ruby-identifier">data</span>, <span class="ruby-identifier">collection</span>.<span class="ruby-identifier">name</span>, <span class="ruby-identifier">logger</span>)
+  <span class="ruby-identifier">bar</span> <span class="ruby-operator">||=</span> <span class="ruby-constant">ProgressBar</span>.<span class="ruby-identifier">new</span>(<span class="ruby-value">0</span>)
+  <span class="ruby-identifier">bar</span>.<span class="ruby-identifier">max</span> <span class="ruby-operator">+=</span> <span class="ruby-identifier">rows</span>.<span class="ruby-identifier">size</span>
+  <span class="ruby-identifier">rows</span>.<span class="ruby-identifier">each</span> <span class="ruby-keyword">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">row</span><span class="ruby-operator">|</span>
+    <span class="ruby-keyword">begin</span>
+      <span class="ruby-identifier">content_source</span> = <span class="ruby-constant">Clipper</span><span class="ruby-operator">::</span><span class="ruby-constant">Importer</span>.<span class="ruby-identifier">import_content_source</span>(<span class="ruby-identifier">url</span><span class="ruby-operator">:</span> <span class="ruby-identifier">row</span>[<span class="ruby-value">:url</span>])
+      <span class="ruby-identifier">article</span> = <span class="ruby-constant">Clipper</span><span class="ruby-operator">::</span><span class="ruby-constant">Importer</span>.<span class="ruby-identifier">create_from_content_source_in_collection</span>(<span class="ruby-identifier">content_source</span>, <span class="ruby-identifier">collection</span>, {<span class="ruby-identifier">tag_list</span><span class="ruby-operator">:</span> <span class="ruby-identifier">row</span>[<span class="ruby-value">:tags</span>]}, <span class="ruby-string">&#39;...&#39;</span>)
+    <span class="ruby-keyword">rescue</span>
+      <span class="ruby-identifier">logger</span>.<span class="ruby-identifier">info</span>(<span class="ruby-node">&quot;Could not import url: [#{row[:url]}]&quot;</span>)
+    <span class="ruby-keyword">end</span>
+    <span class="ruby-identifier">bar</span>.<span class="ruby-identifier">increment!</span>
+  <span class="ruby-keyword">end</span>
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- import-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- import-method -->
+
+    
+      <div id="method-c-import_directory" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">import_directory</span><span
+            class="method-args">(directory_path, user_id, logger)</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+          
+
+          
+          <div class="method-source-code" id="import_directory-source">
+            <pre><span class="ruby-comment"># File lib/evernote/importer.rb, line 19</span>
+<span class="ruby-keyword">def</span> <span class="ruby-keyword">self</span>.<span class="ruby-identifier">import_directory</span>(<span class="ruby-identifier">directory_path</span>, <span class="ruby-identifier">user_id</span>, <span class="ruby-identifier">logger</span>)
+  <span class="ruby-identifier">log_path</span> = <span class="ruby-constant">Rails</span>.<span class="ruby-identifier">root</span>.<span class="ruby-identifier">join</span>(<span class="ruby-string">&#39;log&#39;</span>, <span class="ruby-string">&#39;evernote_import.log&#39;</span>)
+
+  <span class="ruby-identifier">file</span> = <span class="ruby-constant">File</span>.<span class="ruby-identifier">open</span>(<span class="ruby-identifier">log_path</span>, <span class="ruby-constant">File</span><span class="ruby-operator">::</span><span class="ruby-constant">WRONLY</span> <span class="ruby-operator">|</span> <span class="ruby-constant">File</span><span class="ruby-operator">::</span><span class="ruby-constant">APPEND</span> <span class="ruby-operator">|</span> <span class="ruby-constant">File</span><span class="ruby-operator">::</span><span class="ruby-constant">CREAT</span>)
+    <span class="ruby-identifier">file</span>.<span class="ruby-identifier">truncate</span>(<span class="ruby-value">0</span>)
+    <span class="ruby-identifier">logger</span> = <span class="ruby-constant">Logger</span>.<span class="ruby-identifier">new</span>(<span class="ruby-identifier">file</span>)
+
+    <span class="ruby-identifier">user</span> = <span class="ruby-constant">User</span>.<span class="ruby-identifier">find</span>(<span class="ruby-identifier">user_id</span>)
+    <span class="ruby-constant">Dir</span>.<span class="ruby-identifier">chdir</span>(<span class="ruby-identifier">directory_path</span>)
+    <span class="ruby-identifier">evernote_files</span> = <span class="ruby-constant">Dir</span>.<span class="ruby-identifier">glob</span>(<span class="ruby-string">&quot;*.enex&quot;</span>)
+
+    <span class="ruby-identifier">book_bar</span> = <span class="ruby-constant">ProgressBar</span>.<span class="ruby-identifier">new</span>(<span class="ruby-identifier">evernote_files</span>.<span class="ruby-identifier">size</span>)
+    <span class="ruby-identifier">evernote_files</span>.<span class="ruby-identifier">each</span> <span class="ruby-keyword">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">filename</span><span class="ruby-operator">|</span>
+      <span class="ruby-identifier">collection_name</span> = <span class="ruby-constant">File</span>.<span class="ruby-identifier">basename</span>(<span class="ruby-identifier">filename</span>, <span class="ruby-string">&quot;.enex&quot;</span>).<span class="ruby-identifier">titleize</span>
+      <span class="ruby-identifier">puts</span> <span class="ruby-node">&quot;creating collection: #{collection_name}&quot;</span>
+      <span class="ruby-identifier">collection</span> = <span class="ruby-identifier">user</span>.<span class="ruby-identifier">collections</span>.<span class="ruby-identifier">find_or_create_by</span>(<span class="ruby-identifier">name</span><span class="ruby-operator">:</span> <span class="ruby-identifier">collection_name</span>, <span class="ruby-identifier">user_id</span><span class="ruby-operator">:</span> <span class="ruby-identifier">user</span>.<span class="ruby-identifier">id</span>)
+      <span class="ruby-identifier">import_file</span> = <span class="ruby-constant">File</span>.<span class="ruby-identifier">join</span>(<span class="ruby-constant">Dir</span>.<span class="ruby-identifier">pwd</span>, <span class="ruby-identifier">filename</span>)
+      <span class="ruby-constant">Importer</span>.<span class="ruby-identifier">import</span>(<span class="ruby-constant">File</span>.<span class="ruby-identifier">open</span>(<span class="ruby-identifier">import_file</span>), <span class="ruby-identifier">collection</span>.<span class="ruby-identifier">id</span>, <span class="ruby-identifier">logger</span>, <span class="ruby-identifier">book_bar</span>)
+      <span class="ruby-identifier">book_bar</span>.<span class="ruby-identifier">increment!</span>
+    <span class="ruby-keyword">end</span>
+  <span class="ruby-identifier">file</span>.<span class="ruby-identifier">close</span>
+
+  <span class="ruby-identifier">puts</span> <span class="ruby-string">&quot;Completed import...&quot;</span>
+  <span class="ruby-identifier">puts</span> <span class="ruby-node">%xcat #{log_path}`</span>
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- import_directory-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- import_directory-method -->
+
+    
+      <div id="method-c-import_missing_from_directory" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">import_missing_from_directory</span><span
+            class="method-args">(directory_path, logger)</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+          
+
+          
+          <div class="method-source-code" id="import_missing_from_directory-source">
+            <pre><span class="ruby-comment"># File lib/evernote/importer.rb, line 45</span>
+<span class="ruby-keyword">def</span> <span class="ruby-keyword">self</span>.<span class="ruby-identifier">import_missing_from_directory</span>(<span class="ruby-identifier">directory_path</span>, <span class="ruby-identifier">logger</span>)
+  <span class="ruby-identifier">log_path</span> = <span class="ruby-constant">Rails</span>.<span class="ruby-identifier">root</span>.<span class="ruby-identifier">join</span>(<span class="ruby-string">&#39;log&#39;</span>, <span class="ruby-string">&#39;evernote_import.log&#39;</span>)
+
+  <span class="ruby-identifier">file</span> = <span class="ruby-constant">File</span>.<span class="ruby-identifier">open</span>(<span class="ruby-identifier">log_path</span>, <span class="ruby-constant">File</span><span class="ruby-operator">::</span><span class="ruby-constant">WRONLY</span> <span class="ruby-operator">|</span> <span class="ruby-constant">File</span><span class="ruby-operator">::</span><span class="ruby-constant">APPEND</span> <span class="ruby-operator">|</span> <span class="ruby-constant">File</span><span class="ruby-operator">::</span><span class="ruby-constant">CREAT</span>)
+    <span class="ruby-identifier">file</span>.<span class="ruby-identifier">truncate</span>(<span class="ruby-value">0</span>)
+    <span class="ruby-identifier">logger</span> = <span class="ruby-constant">Logger</span>.<span class="ruby-identifier">new</span>(<span class="ruby-identifier">file</span>)
+
+    <span class="ruby-constant">Dir</span>.<span class="ruby-identifier">chdir</span>(<span class="ruby-identifier">directory_path</span>)
+    <span class="ruby-identifier">evernote_files</span> = <span class="ruby-constant">Dir</span>.<span class="ruby-identifier">glob</span>(<span class="ruby-string">&quot;*.enex&quot;</span>)
+
+    <span class="ruby-identifier">book_bar</span> = <span class="ruby-constant">ProgressBar</span>.<span class="ruby-identifier">new</span>(<span class="ruby-identifier">evernote_files</span>.<span class="ruby-identifier">size</span>)
+    <span class="ruby-identifier">evernote_files</span>.<span class="ruby-identifier">each</span> <span class="ruby-keyword">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">filename</span><span class="ruby-operator">|</span>
+      <span class="ruby-identifier">collection_name</span> = <span class="ruby-constant">File</span>.<span class="ruby-identifier">basename</span>(<span class="ruby-identifier">filename</span>, <span class="ruby-string">&quot;.enex&quot;</span>).<span class="ruby-identifier">titleize</span>
+      <span class="ruby-identifier">collection</span> = <span class="ruby-constant">Collection</span>.<span class="ruby-identifier">find_by</span>(<span class="ruby-identifier">name</span><span class="ruby-operator">:</span> <span class="ruby-identifier">collection_name</span>)
+      <span class="ruby-keyword">if</span> <span class="ruby-identifier">collection</span>
+        <span class="ruby-identifier">import_file</span> = <span class="ruby-constant">File</span>.<span class="ruby-identifier">join</span>(<span class="ruby-constant">Dir</span>.<span class="ruby-identifier">pwd</span>, <span class="ruby-identifier">filename</span>)
+        <span class="ruby-identifier">rows</span> = <span class="ruby-constant">Clipper</span><span class="ruby-operator">::</span><span class="ruby-constant">Parser</span>.<span class="ruby-identifier">parse_evernote</span>(<span class="ruby-constant">File</span>.<span class="ruby-identifier">open</span>(<span class="ruby-identifier">import_file</span>), <span class="ruby-identifier">collection_name</span>, <span class="ruby-identifier">logger</span>)
+        <span class="ruby-identifier">bar</span> <span class="ruby-operator">||=</span> <span class="ruby-constant">ProgressBar</span>.<span class="ruby-identifier">new</span>(<span class="ruby-value">0</span>)
+        <span class="ruby-identifier">bar</span>.<span class="ruby-identifier">max</span> <span class="ruby-operator">+=</span> <span class="ruby-identifier">rows</span>.<span class="ruby-identifier">size</span>
+        <span class="ruby-identifier">rows</span>.<span class="ruby-identifier">each</span> <span class="ruby-keyword">do</span> <span class="ruby-operator">|</span><span class="ruby-identifier">row</span><span class="ruby-operator">|</span>
+          <span class="ruby-identifier">content_source</span> = <span class="ruby-constant">ContentSource</span>.<span class="ruby-identifier">find_by</span>(<span class="ruby-identifier">url</span><span class="ruby-operator">:</span> <span class="ruby-identifier">row</span>[<span class="ruby-value">:url</span>])
+          <span class="ruby-keyword">if</span> <span class="ruby-identifier">content_source</span>
+            <span class="ruby-keyword">if</span> <span class="ruby-operator">!</span><span class="ruby-identifier">collection</span>.<span class="ruby-identifier">articles</span>.<span class="ruby-identifier">map</span>(<span class="ruby-operator">&amp;</span><span class="ruby-value">:content_source</span>).<span class="ruby-identifier">flatten</span>.<span class="ruby-identifier">map</span>(<span class="ruby-operator">&amp;</span><span class="ruby-value">:id</span>).<span class="ruby-identifier">index</span>(<span class="ruby-identifier">collection</span>.<span class="ruby-identifier">id</span>)
+              <span class="ruby-identifier">article</span> = <span class="ruby-constant">Clipper</span><span class="ruby-operator">::</span><span class="ruby-constant">Importer</span>.<span class="ruby-identifier">create_from_content_source_in_collection</span>(<span class="ruby-identifier">content_source</span>, <span class="ruby-identifier">collection</span>, {<span class="ruby-identifier">tag_list</span><span class="ruby-operator">:</span> <span class="ruby-identifier">row</span>[<span class="ruby-value">:tags</span>]}, <span class="ruby-string">&#39;...&#39;</span>)
+            <span class="ruby-keyword">end</span>
+          <span class="ruby-keyword">end</span>
+          <span class="ruby-identifier">book_bar</span>.<span class="ruby-identifier">increment!</span>
+        <span class="ruby-keyword">end</span>
+      <span class="ruby-keyword">end</span>
+      <span class="ruby-identifier">book_bar</span>.<span class="ruby-identifier">increment!</span>
+    <span class="ruby-keyword">end</span>
+  <span class="ruby-identifier">file</span>.<span class="ruby-identifier">close</span>
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- import_missing_from_directory-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- import_missing_from_directory-method -->
+
+    
+    </section><!-- public-class-method-details -->
+  
+  </section><!-- 5Buntitled-5D -->
+
+</div><!-- documentation -->
+
+
+<footer id="validator-badges">
+  <p><a href="http://validator.w3.org/check/referer">[Validate]</a>
+  <p>Generated by <a href="https://github.com/rdoc/rdoc">RDoc</a> 4.0.0.
+  <p>Generated with the <a href="http://deveiate.org/projects/Darkfish-Rdoc/">Darkfish Rdoc Generator</a> 3.
+</footer>
+

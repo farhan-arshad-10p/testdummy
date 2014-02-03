@@ -1,0 +1,30 @@
+production:
+  solr:
+    hostname: localhost
+    port: 8080
+    solr_home: /var/www/workr.com/shared/solr
+    log_level: WARNING
+    min_memory: 256M
+    max_memory: 768M
+
+staging:
+  solr:
+    hostname: localhost
+    port: 8080
+    solr_home: /var/www/workr.atomicobject.com/shared/solr
+    log_level: WARNING
+
+development:
+  solr:
+    hostname: localhost
+    port: 8982
+    log_level: INFO
+    min_memory: 256M
+    max_memory: 512M
+
+test:
+  solr:
+    hostname: localhost
+    port: 8981
+    path: /solr/test
+    log_level: WARNING

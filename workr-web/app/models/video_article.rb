@@ -1,0 +1,1 @@
+class VideoArticle < Article;end 

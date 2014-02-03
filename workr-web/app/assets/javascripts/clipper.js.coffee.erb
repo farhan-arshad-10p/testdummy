@@ -1,0 +1,71 @@
+<% if Rails.env.production? %>
+site = 'https://workr.com'
+<% elsif Rails.env.staging? %>
+site = 'http://workr.atomicobject.com:8088'
+<% else %>
+site = 'http://localhost:3000'
+<% end %>
+
+clip_path = "#{site}/clip?url=#{encodeURIComponent(location.href)}"
+(clippr = ->
+  el = document.createElement('iframe')
+  container = document.createElement('div')
+  container.appendChild(el)
+
+  closeButton = document.createElement('a')
+  closeButton.href = "#"
+  closeButton.innerHTML = "Close"
+  closeButton.style.fontSize = "12px"
+  closeButton.style.position='absolute'
+  closeButton.style.right='10px'
+  closeButton.style.top='10px'
+
+  container.appendChild(closeButton)
+  b = document.getElementsByTagName('body')[0]
+
+  closeIframe = =>
+    b.removeChild(container)
+    false
+
+  messageParse = (m) =>
+    closeIframe() if m.data == "closeWindow"
+
+  window.addEventListener("message", messageParse, false);
+  closeButton.onclick = closeIframe
+
+  el.src = clip_path
+  el.frameBorder=0
+  el.scrolling='no'
+  el.style.height='400px'
+  el.style.width='500px'
+
+  container.style.zIndex=2147483647
+  container.style.position='fixed'
+  container.style.height='400px'
+  container.style.width='500px'
+  container.style.right='10px'
+  container.style.top='10px'
+ 
+  getScript = ((url, success) ->
+    script=document.createElement('script')
+    script.src=url
+    head=document.getElementsByTagName('head')[0]
+    done=false
+
+    script.onload = script.onreadystatechange = (->
+      if !done && !this.readyState || this.readyState == 'loaded' || this.readyState == 'complete'
+        done=true
+        success()
+        script.onload = null
+        script.onreadystatechange = null
+        head.removeChild(script)
+    )
+
+    head.appendChild(script)
+  )
+  
+  clipPage = =>
+    b.appendChild(container)
+
+  clipPage()
+)()

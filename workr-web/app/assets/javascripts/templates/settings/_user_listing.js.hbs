@@ -1,0 +1,11 @@
+<tr class="followed-user">
+  <td>
+    {{#linkTo 'user' followed_user}}
+      <img {{bindAttr src="followed_user.avatar_url"}} class="tiny-avatar" />
+      {{followed_user.full_name}}
+    {{/linkTo}}
+  </td>
+  <td>
+  <button class="follow-button btn btn-danger pull-right app-unfollow-user" {{action unfollowUser followed_user}}>Unfollow</button>
+  </td>
+</tr>

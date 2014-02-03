@@ -1,0 +1,270 @@
+# Logfile created on 2013-11-01 14:46:24 +0500 by logger.rb/36483
+[11/01/13 14:46:24 +0500 dev-tariq (16669)] INFO : Starting the New Relic agent in "development" environment.
+[11/01/13 14:46:24 +0500 dev-tariq (16669)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[11/01/13 14:46:24 +0500 dev-tariq (16669)] INFO : Reading configuration from 
+[11/01/13 14:46:24 +0500 dev-tariq (16669)] ERROR : Unable to read configuration file : Is a directory - /var/www/project_workr/workr-web
+[11/01/13 14:46:24 +0500 dev-tariq (16669)] INFO : Enabling the Request Sampler.
+[11/01/13 14:46:24 +0500 dev-tariq (16669)] INFO : Enabling the Request Sampler.
+[11/01/13 14:46:24 +0500 dev-tariq (16669)] INFO : Environment: development
+[11/01/13 14:46:24 +0500 dev-tariq (16669)] INFO : Dispatcher: webrick
+[11/01/13 14:46:24 +0500 dev-tariq (16669)] INFO : Application: development
+[11/01/13 14:46:24 +0500 dev-tariq (16669)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[11/01/13 14:46:24 +0500 dev-tariq (16669)] INFO : Installing Net instrumentation
+[11/01/13 14:46:24 +0500 dev-tariq (16669)] INFO : Installing Typhoeus instrumentation
+[11/01/13 14:46:24 +0500 dev-tariq (16669)] INFO : Installing ActiveRecord 4 instrumentation
+[11/01/13 14:46:24 +0500 dev-tariq (16669)] INFO : Installing deferred Rack instrumentation
+[11/01/13 14:46:24 +0500 dev-tariq (16669)] INFO : Installing Rails Sunspot instrumentation
+[11/01/13 14:46:24 +0500 dev-tariq (16669)] INFO : Installing Rails 4 view instrumentation
+[11/01/13 14:46:24 +0500 dev-tariq (16669)] INFO : Installing Rails4 Error instrumentation
+[11/01/13 14:46:24 +0500 dev-tariq (16669)] INFO : Installing Rails 4 Controller instrumentation
+[11/01/13 14:46:24 +0500 dev-tariq (16669)] INFO : Finished instrumentation
+[11/01/13 14:48:14 +0500 dev-tariq (16751)] INFO : Starting the New Relic agent in "development" environment.
+[11/01/13 14:48:14 +0500 dev-tariq (16751)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[11/01/13 14:48:14 +0500 dev-tariq (16751)] INFO : Reading configuration from 
+[11/01/13 14:48:14 +0500 dev-tariq (16751)] ERROR : Unable to read configuration file : Is a directory - /var/www/project_workr/workr-web
+[11/01/13 14:48:14 +0500 dev-tariq (16751)] INFO : Enabling the Request Sampler.
+[11/01/13 14:48:14 +0500 dev-tariq (16751)] INFO : Enabling the Request Sampler.
+[11/01/13 14:48:14 +0500 dev-tariq (16751)] INFO : Environment: development
+[11/01/13 14:48:14 +0500 dev-tariq (16751)] INFO : Dispatcher: webrick
+[11/01/13 14:48:14 +0500 dev-tariq (16751)] INFO : Application: development
+[11/01/13 14:48:14 +0500 dev-tariq (16751)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[11/01/13 14:48:14 +0500 dev-tariq (16751)] INFO : Installing Net instrumentation
+[11/01/13 14:48:14 +0500 dev-tariq (16751)] INFO : Installing Typhoeus instrumentation
+[11/01/13 14:48:14 +0500 dev-tariq (16751)] INFO : Installing ActiveRecord 4 instrumentation
+[11/01/13 14:48:14 +0500 dev-tariq (16751)] INFO : Installing deferred Rack instrumentation
+[11/01/13 14:48:14 +0500 dev-tariq (16751)] INFO : Installing Rails Sunspot instrumentation
+[11/01/13 14:48:14 +0500 dev-tariq (16751)] INFO : Installing Rails 4 view instrumentation
+[11/01/13 14:48:14 +0500 dev-tariq (16751)] INFO : Installing Rails4 Error instrumentation
+[11/01/13 14:48:14 +0500 dev-tariq (16751)] INFO : Installing Rails 4 Controller instrumentation
+[11/01/13 14:48:14 +0500 dev-tariq (16751)] INFO : Finished instrumentation
+[11/01/13 14:57:46 +0500 dev-tariq (16953)] INFO : Starting the New Relic agent in "development" environment.
+[11/01/13 14:57:46 +0500 dev-tariq (16953)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[11/01/13 14:57:46 +0500 dev-tariq (16953)] INFO : Reading configuration from 
+[11/01/13 14:57:46 +0500 dev-tariq (16953)] ERROR : Unable to read configuration file : Is a directory - /var/www/project_workr/workr-web
+[11/01/13 14:57:46 +0500 dev-tariq (16953)] INFO : Enabling the Request Sampler.
+[11/01/13 14:57:46 +0500 dev-tariq (16953)] INFO : Enabling the Request Sampler.
+[11/01/13 14:57:46 +0500 dev-tariq (16953)] INFO : Environment: development
+[11/01/13 14:57:46 +0500 dev-tariq (16953)] INFO : Dispatcher: webrick
+[11/01/13 14:57:46 +0500 dev-tariq (16953)] INFO : Application: development
+[11/01/13 14:57:46 +0500 dev-tariq (16953)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[11/01/13 14:57:46 +0500 dev-tariq (16953)] INFO : Installing Net instrumentation
+[11/01/13 14:57:46 +0500 dev-tariq (16953)] INFO : Installing Typhoeus instrumentation
+[11/01/13 14:57:46 +0500 dev-tariq (16953)] INFO : Installing ActiveRecord 4 instrumentation
+[11/01/13 14:57:46 +0500 dev-tariq (16953)] INFO : Installing deferred Rack instrumentation
+[11/01/13 14:57:46 +0500 dev-tariq (16953)] INFO : Installing Rails Sunspot instrumentation
+[11/01/13 14:57:46 +0500 dev-tariq (16953)] INFO : Installing Rails 4 view instrumentation
+[11/01/13 14:57:46 +0500 dev-tariq (16953)] INFO : Installing Rails4 Error instrumentation
+[11/01/13 14:57:46 +0500 dev-tariq (16953)] INFO : Installing Rails 4 Controller instrumentation
+[11/01/13 14:57:46 +0500 dev-tariq (16953)] INFO : Finished instrumentation
+[11/01/13 14:57:47 +0500 dev-tariq (16953)] INFO : Doing deferred dependency-detection before Rack startup
+[11/01/13 15:22:17 +0500 dev-tariq (17829)] INFO : Starting the New Relic agent in "development" environment.
+[11/01/13 15:22:17 +0500 dev-tariq (17829)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[11/01/13 15:22:17 +0500 dev-tariq (17829)] INFO : Reading configuration from 
+[11/01/13 15:22:17 +0500 dev-tariq (17829)] ERROR : Unable to read configuration file : Is a directory - /var/www/project_workr/workr-web
+[11/01/13 15:22:17 +0500 dev-tariq (17829)] INFO : Enabling the Request Sampler.
+[11/01/13 15:22:17 +0500 dev-tariq (17829)] INFO : Enabling the Request Sampler.
+[11/01/13 15:22:17 +0500 dev-tariq (17829)] INFO : Environment: development
+[11/01/13 15:22:17 +0500 dev-tariq (17829)] INFO : No known dispatcher detected.
+[11/01/13 15:22:17 +0500 dev-tariq (17829)] INFO : Application: development
+[11/01/13 15:22:17 +0500 dev-tariq (17829)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[11/01/13 15:22:17 +0500 dev-tariq (17829)] INFO : Installing Net instrumentation
+[11/01/13 15:22:17 +0500 dev-tariq (17829)] INFO : Installing Typhoeus instrumentation
+[11/01/13 15:22:17 +0500 dev-tariq (17829)] INFO : Installing ActiveRecord 4 instrumentation
+[11/01/13 15:22:17 +0500 dev-tariq (17829)] INFO : Installing deferred Rack instrumentation
+[11/01/13 15:22:17 +0500 dev-tariq (17829)] INFO : Installing Rails Sunspot instrumentation
+[11/01/13 15:22:17 +0500 dev-tariq (17829)] INFO : Installing Rails 4 view instrumentation
+[11/01/13 15:22:17 +0500 dev-tariq (17829)] INFO : Installing Rails4 Error instrumentation
+[11/01/13 15:22:17 +0500 dev-tariq (17829)] INFO : Installing Rails 4 Controller instrumentation
+[11/01/13 15:22:17 +0500 dev-tariq (17829)] INFO : Finished instrumentation
+[11/01/13 15:23:16 +0500 dev-tariq (17899)] INFO : Starting the New Relic agent in "development" environment.
+[11/01/13 15:23:16 +0500 dev-tariq (17899)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[11/01/13 15:23:16 +0500 dev-tariq (17899)] INFO : Reading configuration from 
+[11/01/13 15:23:16 +0500 dev-tariq (17899)] ERROR : Unable to read configuration file : Is a directory - /var/www/project_workr/workr-web
+[11/01/13 15:23:16 +0500 dev-tariq (17899)] INFO : Enabling the Request Sampler.
+[11/01/13 15:23:16 +0500 dev-tariq (17899)] INFO : Enabling the Request Sampler.
+[11/01/13 15:23:16 +0500 dev-tariq (17899)] INFO : Environment: development
+[11/01/13 15:23:16 +0500 dev-tariq (17899)] INFO : Dispatcher: webrick
+[11/01/13 15:23:16 +0500 dev-tariq (17899)] INFO : Application: development
+[11/01/13 15:23:16 +0500 dev-tariq (17899)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[11/01/13 15:23:16 +0500 dev-tariq (17899)] INFO : Installing Net instrumentation
+[11/01/13 15:23:16 +0500 dev-tariq (17899)] INFO : Installing Typhoeus instrumentation
+[11/01/13 15:23:16 +0500 dev-tariq (17899)] INFO : Installing ActiveRecord 4 instrumentation
+[11/01/13 15:23:16 +0500 dev-tariq (17899)] INFO : Installing deferred Rack instrumentation
+[11/01/13 15:23:16 +0500 dev-tariq (17899)] INFO : Installing Rails Sunspot instrumentation
+[11/01/13 15:23:16 +0500 dev-tariq (17899)] INFO : Installing Rails 4 view instrumentation
+[11/01/13 15:23:16 +0500 dev-tariq (17899)] INFO : Installing Rails4 Error instrumentation
+[11/01/13 15:23:16 +0500 dev-tariq (17899)] INFO : Installing Rails 4 Controller instrumentation
+[11/01/13 15:23:16 +0500 dev-tariq (17899)] INFO : Finished instrumentation
+[11/01/13 15:23:17 +0500 dev-tariq (17899)] INFO : Doing deferred dependency-detection before Rack startup
+[01/21/14 12:14:52 +0500 dev-tariq (7676)] INFO : Starting the New Relic agent in "development" environment.
+[01/21/14 12:14:52 +0500 dev-tariq (7676)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[01/21/14 12:14:52 +0500 dev-tariq (7676)] INFO : Reading configuration from config/newrelic.yml
+[01/21/14 12:14:52 +0500 dev-tariq (7676)] INFO : New Relic Agent Developer Mode enabled.
+[01/21/14 12:14:52 +0500 dev-tariq (7676)] INFO : Enabling the Request Sampler.
+[01/21/14 12:14:52 +0500 dev-tariq (7676)] INFO : Enabling the Request Sampler.
+[01/21/14 12:14:52 +0500 dev-tariq (7676)] INFO : Environment: development
+[01/21/14 12:14:52 +0500 dev-tariq (7676)] INFO : Dispatcher: webrick
+[01/21/14 12:14:52 +0500 dev-tariq (7676)] INFO : Application: Workr
+[01/21/14 12:14:52 +0500 dev-tariq (7676)] WARN : Agent configured not to send data in this environment.
+[01/21/14 12:14:53 +0500 dev-tariq (7676)] INFO : Installing Net instrumentation
+[01/21/14 12:14:53 +0500 dev-tariq (7676)] INFO : Installing ActiveRecord 4 instrumentation
+[01/21/14 12:14:53 +0500 dev-tariq (7676)] INFO : Installing deferred Rack instrumentation
+[01/21/14 12:14:53 +0500 dev-tariq (7676)] INFO : Installing Rails Sunspot instrumentation
+[01/21/14 12:14:53 +0500 dev-tariq (7676)] INFO : Installing Rails 4 view instrumentation
+[01/21/14 12:14:53 +0500 dev-tariq (7676)] INFO : Installing Rails4 Error instrumentation
+[01/21/14 12:14:53 +0500 dev-tariq (7676)] INFO : Installing Rails 4 Controller instrumentation
+[01/21/14 12:14:53 +0500 dev-tariq (7676)] INFO : Finished instrumentation
+[01/21/14 12:14:54 +0500 dev-tariq (7676)] INFO : Doing deferred dependency-detection before Rack startup
+[01/21/14 13:00:46 +0500 dev-tariq (10837)] INFO : Starting the New Relic agent in "development" environment.
+[01/21/14 13:00:46 +0500 dev-tariq (10837)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[01/21/14 13:00:46 +0500 dev-tariq (10837)] INFO : Reading configuration from config/newrelic.yml
+[01/21/14 13:00:46 +0500 dev-tariq (10837)] INFO : New Relic Agent Developer Mode enabled.
+[01/21/14 13:00:46 +0500 dev-tariq (10837)] INFO : Enabling the Request Sampler.
+[01/21/14 13:00:46 +0500 dev-tariq (10837)] INFO : Enabling the Request Sampler.
+[01/21/14 13:00:46 +0500 dev-tariq (10837)] INFO : Environment: development
+[01/21/14 13:00:46 +0500 dev-tariq (10837)] INFO : Dispatcher: webrick
+[01/21/14 13:00:46 +0500 dev-tariq (10837)] INFO : Application: Workr
+[01/21/14 13:00:46 +0500 dev-tariq (10837)] WARN : Agent configured not to send data in this environment.
+[01/21/14 13:00:46 +0500 dev-tariq (10837)] INFO : Installing Net instrumentation
+[01/21/14 13:00:47 +0500 dev-tariq (10837)] INFO : Installing Typhoeus instrumentation
+[01/21/14 13:00:47 +0500 dev-tariq (10837)] INFO : Installing ActiveRecord 4 instrumentation
+[01/21/14 13:00:47 +0500 dev-tariq (10837)] INFO : Installing deferred Rack instrumentation
+[01/21/14 13:00:47 +0500 dev-tariq (10837)] INFO : Installing Rails Sunspot instrumentation
+[01/21/14 13:00:47 +0500 dev-tariq (10837)] INFO : Installing Rails 4 view instrumentation
+[01/21/14 13:00:47 +0500 dev-tariq (10837)] INFO : Installing Rails4 Error instrumentation
+[01/21/14 13:00:47 +0500 dev-tariq (10837)] INFO : Installing Rails 4 Controller instrumentation
+[01/21/14 13:00:47 +0500 dev-tariq (10837)] INFO : Finished instrumentation
+[01/21/14 13:00:49 +0500 dev-tariq (10837)] INFO : Doing deferred dependency-detection before Rack startup
+[01/21/14 13:02:37 +0500 dev-tariq (10963)] INFO : Starting the New Relic agent in "development" environment.
+[01/21/14 13:02:37 +0500 dev-tariq (10963)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[01/21/14 13:02:37 +0500 dev-tariq (10963)] INFO : Reading configuration from config/newrelic.yml
+[01/21/14 13:02:37 +0500 dev-tariq (10963)] INFO : New Relic Agent Developer Mode enabled.
+[01/21/14 13:02:37 +0500 dev-tariq (10963)] INFO : Enabling the Request Sampler.
+[01/21/14 13:02:37 +0500 dev-tariq (10963)] INFO : Enabling the Request Sampler.
+[01/21/14 13:02:37 +0500 dev-tariq (10963)] INFO : Environment: development
+[01/21/14 13:02:37 +0500 dev-tariq (10963)] INFO : Dispatcher: webrick
+[01/21/14 13:02:37 +0500 dev-tariq (10963)] INFO : Application: Workr
+[01/21/14 13:02:37 +0500 dev-tariq (10963)] WARN : Agent configured not to send data in this environment.
+[01/21/14 13:02:37 +0500 dev-tariq (10963)] INFO : Installing Net instrumentation
+[01/21/14 13:02:37 +0500 dev-tariq (10963)] INFO : Installing ActiveRecord 4 instrumentation
+[01/21/14 13:02:37 +0500 dev-tariq (10963)] INFO : Installing deferred Rack instrumentation
+[01/21/14 13:02:37 +0500 dev-tariq (10963)] INFO : Installing Rails Sunspot instrumentation
+[01/21/14 13:02:37 +0500 dev-tariq (10963)] INFO : Installing Rails 4 view instrumentation
+[01/21/14 13:02:37 +0500 dev-tariq (10963)] INFO : Installing Rails4 Error instrumentation
+[01/21/14 13:02:37 +0500 dev-tariq (10963)] INFO : Installing Rails 4 Controller instrumentation
+[01/21/14 13:02:37 +0500 dev-tariq (10963)] INFO : Finished instrumentation
+[01/21/14 13:02:38 +0500 dev-tariq (10963)] INFO : Doing deferred dependency-detection before Rack startup
+[01/21/14 13:03:41 +0500 dev-tariq (11063)] INFO : Starting the New Relic agent in "development" environment.
+[01/21/14 13:03:41 +0500 dev-tariq (11063)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[01/21/14 13:03:41 +0500 dev-tariq (11063)] INFO : Reading configuration from config/newrelic.yml
+[01/21/14 13:03:41 +0500 dev-tariq (11063)] INFO : New Relic Agent Developer Mode enabled.
+[01/21/14 13:03:41 +0500 dev-tariq (11063)] INFO : Enabling the Request Sampler.
+[01/21/14 13:03:41 +0500 dev-tariq (11063)] INFO : Enabling the Request Sampler.
+[01/21/14 13:03:41 +0500 dev-tariq (11063)] INFO : Environment: development
+[01/21/14 13:03:41 +0500 dev-tariq (11063)] INFO : Dispatcher: webrick
+[01/21/14 13:03:41 +0500 dev-tariq (11063)] INFO : Application: Workr
+[01/21/14 13:03:41 +0500 dev-tariq (11063)] WARN : Agent configured not to send data in this environment.
+[01/21/14 13:03:41 +0500 dev-tariq (11063)] INFO : Installing Net instrumentation
+[01/21/14 13:03:41 +0500 dev-tariq (11063)] INFO : Installing ActiveRecord 4 instrumentation
+[01/21/14 13:03:41 +0500 dev-tariq (11063)] INFO : Installing deferred Rack instrumentation
+[01/21/14 13:03:41 +0500 dev-tariq (11063)] INFO : Installing Rails Sunspot instrumentation
+[01/21/14 13:03:41 +0500 dev-tariq (11063)] INFO : Installing Rails 4 view instrumentation
+[01/21/14 13:03:41 +0500 dev-tariq (11063)] INFO : Installing Rails4 Error instrumentation
+[01/21/14 13:03:41 +0500 dev-tariq (11063)] INFO : Installing Rails 4 Controller instrumentation
+[01/21/14 13:03:41 +0500 dev-tariq (11063)] INFO : Finished instrumentation
+[01/21/14 13:03:42 +0500 dev-tariq (11063)] INFO : Doing deferred dependency-detection before Rack startup
+[01/21/14 14:21:23 +0500 dev-tariq (14889)] INFO : Starting the New Relic agent in "development" environment.
+[01/21/14 14:21:23 +0500 dev-tariq (14889)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[01/21/14 14:21:23 +0500 dev-tariq (14889)] INFO : Reading configuration from config/newrelic.yml
+[01/21/14 14:21:23 +0500 dev-tariq (14889)] INFO : New Relic Agent Developer Mode enabled.
+[01/21/14 14:21:23 +0500 dev-tariq (14889)] INFO : Enabling the Request Sampler.
+[01/21/14 14:21:23 +0500 dev-tariq (14889)] INFO : Enabling the Request Sampler.
+[01/21/14 14:21:23 +0500 dev-tariq (14889)] INFO : Environment: development
+[01/21/14 14:21:23 +0500 dev-tariq (14889)] INFO : Dispatcher: webrick
+[01/21/14 14:21:23 +0500 dev-tariq (14889)] INFO : Application: Workr
+[01/21/14 14:21:23 +0500 dev-tariq (14889)] WARN : Agent configured not to send data in this environment.
+[01/21/14 14:21:23 +0500 dev-tariq (14889)] INFO : Installing Net instrumentation
+[01/21/14 14:21:23 +0500 dev-tariq (14889)] INFO : Installing ActiveRecord 4 instrumentation
+[01/21/14 14:21:23 +0500 dev-tariq (14889)] INFO : Installing deferred Rack instrumentation
+[01/21/14 14:21:23 +0500 dev-tariq (14889)] INFO : Installing Rails Sunspot instrumentation
+[01/21/14 14:21:23 +0500 dev-tariq (14889)] INFO : Installing Rails 4 view instrumentation
+[01/21/14 14:21:23 +0500 dev-tariq (14889)] INFO : Installing Rails4 Error instrumentation
+[01/21/14 14:21:23 +0500 dev-tariq (14889)] INFO : Installing Rails 4 Controller instrumentation
+[01/21/14 14:21:23 +0500 dev-tariq (14889)] INFO : Finished instrumentation
+[01/21/14 14:21:25 +0500 dev-tariq (14889)] INFO : Doing deferred dependency-detection before Rack startup
+[01/21/14 15:30:19 +0500 dev-tariq (18330)] INFO : Starting the New Relic agent in "development" environment.
+[01/21/14 15:30:19 +0500 dev-tariq (18330)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[01/21/14 15:30:19 +0500 dev-tariq (18330)] INFO : Reading configuration from config/newrelic.yml
+[01/21/14 15:30:19 +0500 dev-tariq (18330)] INFO : New Relic Agent Developer Mode enabled.
+[01/21/14 15:30:19 +0500 dev-tariq (18330)] INFO : Enabling the Request Sampler.
+[01/21/14 15:30:19 +0500 dev-tariq (18330)] INFO : Enabling the Request Sampler.
+[01/21/14 15:30:19 +0500 dev-tariq (18330)] INFO : Environment: development
+[01/21/14 15:30:19 +0500 dev-tariq (18330)] INFO : Dispatcher: webrick
+[01/21/14 15:30:19 +0500 dev-tariq (18330)] INFO : Application: Workr
+[01/21/14 15:30:19 +0500 dev-tariq (18330)] WARN : Agent configured not to send data in this environment.
+[01/21/14 15:30:19 +0500 dev-tariq (18330)] INFO : Installing Net instrumentation
+[01/21/14 15:30:19 +0500 dev-tariq (18330)] INFO : Installing ActiveRecord 4 instrumentation
+[01/21/14 15:30:19 +0500 dev-tariq (18330)] INFO : Installing deferred Rack instrumentation
+[01/21/14 15:30:19 +0500 dev-tariq (18330)] INFO : Installing Rails Sunspot instrumentation
+[01/21/14 15:30:19 +0500 dev-tariq (18330)] INFO : Installing Rails 4 view instrumentation
+[01/21/14 15:30:19 +0500 dev-tariq (18330)] INFO : Installing Rails4 Error instrumentation
+[01/21/14 15:30:19 +0500 dev-tariq (18330)] INFO : Installing Rails 4 Controller instrumentation
+[01/21/14 15:30:19 +0500 dev-tariq (18330)] INFO : Finished instrumentation
+[01/21/14 15:30:28 +0500 dev-tariq (18330)] INFO : Doing deferred dependency-detection before Rack startup
+[01/24/14 11:45:40 +0500 dev-tariq (4481)] INFO : Starting the New Relic agent in "development" environment.
+[01/24/14 11:45:40 +0500 dev-tariq (4481)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[01/24/14 11:45:40 +0500 dev-tariq (4481)] INFO : Reading configuration from config/newrelic.yml
+[01/24/14 11:45:40 +0500 dev-tariq (4481)] INFO : New Relic Agent Developer Mode enabled.
+[01/24/14 11:45:40 +0500 dev-tariq (4481)] INFO : Enabling the Request Sampler.
+[01/24/14 11:45:40 +0500 dev-tariq (4481)] INFO : Enabling the Request Sampler.
+[01/24/14 11:45:40 +0500 dev-tariq (4481)] INFO : Environment: development
+[01/24/14 11:45:40 +0500 dev-tariq (4481)] INFO : Dispatcher: webrick
+[01/24/14 11:45:40 +0500 dev-tariq (4481)] INFO : Application: Workr
+[01/24/14 11:45:40 +0500 dev-tariq (4481)] WARN : Agent configured not to send data in this environment.
+[01/24/14 11:45:40 +0500 dev-tariq (4481)] INFO : Installing Net instrumentation
+[01/24/14 11:45:40 +0500 dev-tariq (4481)] INFO : Installing ActiveRecord 4 instrumentation
+[01/24/14 11:45:40 +0500 dev-tariq (4481)] INFO : Installing deferred Rack instrumentation
+[01/24/14 11:45:40 +0500 dev-tariq (4481)] INFO : Installing Rails Sunspot instrumentation
+[01/24/14 11:45:40 +0500 dev-tariq (4481)] INFO : Installing Rails 4 view instrumentation
+[01/24/14 11:45:40 +0500 dev-tariq (4481)] INFO : Installing Rails4 Error instrumentation
+[01/24/14 11:45:40 +0500 dev-tariq (4481)] INFO : Installing Rails 4 Controller instrumentation
+[01/24/14 11:45:40 +0500 dev-tariq (4481)] INFO : Finished instrumentation
+[01/24/14 11:45:42 +0500 dev-tariq (4481)] INFO : Doing deferred dependency-detection before Rack startup
+[01/24/14 11:57:15 +0500 dev-tariq (5270)] INFO : Starting the New Relic agent in "development" environment.
+[01/24/14 11:57:15 +0500 dev-tariq (5270)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[01/24/14 11:57:15 +0500 dev-tariq (5270)] INFO : Reading configuration from config/newrelic.yml
+[01/24/14 11:57:15 +0500 dev-tariq (5270)] INFO : New Relic Agent Developer Mode enabled.
+[01/24/14 11:57:15 +0500 dev-tariq (5270)] INFO : Enabling the Request Sampler.
+[01/24/14 11:57:15 +0500 dev-tariq (5270)] INFO : Enabling the Request Sampler.
+[01/24/14 11:57:15 +0500 dev-tariq (5270)] INFO : Environment: development
+[01/24/14 11:57:15 +0500 dev-tariq (5270)] INFO : Dispatcher: webrick
+[01/24/14 11:57:15 +0500 dev-tariq (5270)] INFO : Application: Workr
+[01/24/14 11:57:15 +0500 dev-tariq (5270)] WARN : Agent configured not to send data in this environment.
+[01/24/14 11:57:15 +0500 dev-tariq (5270)] INFO : Installing Net instrumentation
+[01/24/14 11:57:15 +0500 dev-tariq (5270)] INFO : Installing ActiveRecord 4 instrumentation
+[01/24/14 11:57:15 +0500 dev-tariq (5270)] INFO : Installing deferred Rack instrumentation
+[01/24/14 11:57:15 +0500 dev-tariq (5270)] INFO : Installing Rails Sunspot instrumentation
+[01/24/14 11:57:15 +0500 dev-tariq (5270)] INFO : Installing Rails 4 view instrumentation
+[01/24/14 11:57:15 +0500 dev-tariq (5270)] INFO : Installing Rails4 Error instrumentation
+[01/24/14 11:57:15 +0500 dev-tariq (5270)] INFO : Installing Rails 4 Controller instrumentation
+[01/24/14 11:57:15 +0500 dev-tariq (5270)] INFO : Finished instrumentation
+[01/24/14 11:57:16 +0500 dev-tariq (5270)] INFO : Doing deferred dependency-detection before Rack startup
+[01/30/14 10:36:38 +0500 dev-tariq (5152)] INFO : Starting the New Relic agent in "development" environment.
+[01/30/14 10:36:38 +0500 dev-tariq (5152)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[01/30/14 10:36:38 +0500 dev-tariq (5152)] INFO : Reading configuration from config/newrelic.yml
+[01/30/14 10:36:38 +0500 dev-tariq (5152)] INFO : New Relic Agent Developer Mode enabled.
+[01/30/14 10:36:38 +0500 dev-tariq (5152)] INFO : Enabling the Request Sampler.
+[01/30/14 10:36:38 +0500 dev-tariq (5152)] INFO : Enabling the Request Sampler.
+[01/30/14 10:36:38 +0500 dev-tariq (5152)] INFO : Environment: development
+[01/30/14 10:36:38 +0500 dev-tariq (5152)] INFO : Dispatcher: webrick
+[01/30/14 10:36:38 +0500 dev-tariq (5152)] INFO : Application: Workr
+[01/30/14 10:36:38 +0500 dev-tariq (5152)] WARN : Agent configured not to send data in this environment.
+[01/30/14 10:36:38 +0500 dev-tariq (5152)] INFO : Installing Net instrumentation
+[01/30/14 10:36:38 +0500 dev-tariq (5152)] INFO : Installing ActiveRecord 4 instrumentation
+[01/30/14 10:36:38 +0500 dev-tariq (5152)] INFO : Installing deferred Rack instrumentation
+[01/30/14 10:36:38 +0500 dev-tariq (5152)] INFO : Installing Rails Sunspot instrumentation
+[01/30/14 10:36:38 +0500 dev-tariq (5152)] INFO : Installing Rails 4 view instrumentation
+[01/30/14 10:36:38 +0500 dev-tariq (5152)] INFO : Installing Rails4 Error instrumentation
+[01/30/14 10:36:38 +0500 dev-tariq (5152)] INFO : Installing Rails 4 Controller instrumentation
+[01/30/14 10:36:38 +0500 dev-tariq (5152)] INFO : Finished instrumentation
+[01/30/14 10:36:40 +0500 dev-tariq (5152)] INFO : Doing deferred dependency-detection before Rack startup

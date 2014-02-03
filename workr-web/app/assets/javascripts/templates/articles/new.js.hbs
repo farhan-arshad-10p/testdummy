@@ -1,0 +1,38 @@
+{{#if controllers.application.inFrame}}
+{{else}}
+<h2>Create Article</h2>
+{{/if}}
+<form role="form">
+  {{partial "articles/form"}}
+
+  <div class="row">
+    <div class="col-xs-6">
+      {{#view App.FormGroup errorsBinding="errors.collections"}}
+        <label for="article-collection" class="control-label">Collection</label>
+        {{view Ember.Select
+             contentBinding="controllers.currentUser.sortedCollections"
+             valueBinding="collection"
+             optionValuePath="content"
+             optionLabelPath="content.name"
+             prompt="Please select a collection"
+             id="article-collection"
+             class="form-control"
+             classNameBindings="controllers.application.inFrame:input-sm"
+        }}
+      {{/view}}
+    </div>
+    <div class="col-xs-6 left-border">
+      {{#view App.FormGroup}}
+        <label for="new-collection-name" class="control-label">New Collection</label>
+        {{view Ember.TextField valueBinding="controller.new_collection_name" id="new-collection-name" placeholder="Collection name" class="form-control" classNameBindings="controllers.application.inFrame:input-sm"}}
+      {{/view}}
+      <div class="form-group">
+        <button type="submit" {{bind-attr class=":btn :btn-default controllers.application.inFrame:btn-xs:btn-sm"}} {{action "create_collection"}}>Create Collection</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="form-group">
+    <button type="submit" {{bind-attr class=":btn :btn-default controllers.application.inFrame:btn-sm"}} {{action "save" this}}>Clip Article</button>
+  </div>
+</form>

@@ -1,0 +1,11 @@
+<div id="following" class="col-md-12">
+  <table class="table table-striped">
+    <tbody>
+      {{#unless following_count}}<h4>No users are being followed currently...</h4>{{/unless}}
+
+      {{#each user in following}}
+        {{partial 'user/user_listing'}}
+      {{/each}}
+    </tbody>
+  </table>
+</div>

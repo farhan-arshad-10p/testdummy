@@ -1,0 +1,13 @@
+<div class="btn-group btn-group-justified search-type">
+  {{#if controllers.application.isArticleSearch}}
+    {{#each search_type in controllers.application.VALID_SEARCH_TYPES}}
+    {{#view App.SearchTypeView typeBinding='search_type' selectedBinding='controllers.application.searchType'}}{{search_type}}{{/view}}
+    {{/each}}
+  {{/if}}
+</div>
+{{partial 'display_type_selector'}}
+<div id="search">
+  {{#unless articles.length}}<h4>No results found, please try another search term!</h4>{{/unless}}
+  {{partial 'article_collection_views'}}
+</div>
+{{view App.LoadMoreView controller=controller}}

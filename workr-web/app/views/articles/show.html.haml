@@ -1,0 +1,14 @@
+%h3= @article.title
+= render 'articles/information', article: @article
+%p= t('articles.provider_html', provider_name_link: link_to(@article.provider_display, @article.url, target: '_blank'))
+%hr
+- if @article.is_a?(VideoArticle)
+  = @article.media_url.html_safe
+- elsif @article.is_a?(ImageArticle)
+  %img(src="#{@article.featured_image}")
+- elsif @article.content.present?
+  = @article.content.html_safe
+- else
+  %p= @article.description.html_safe
+  %p= link_to "View Full Article on #{@article.provider_display}", @article.url, class: "btn btn-block btn-primary"
+= render 'articles/related'

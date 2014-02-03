@@ -1,0 +1,7 @@
+%p
+  - article.tags.each do |tag|
+    %span.label.label-info= tag.name
+- if article.view_count >= 1
+  %p
+    %span.label.label-success= t('articles.views', count: article.view_count)
+%p= t('articles.clipped', name: article.collections.first.user.full_name, collection: article.collections.first.name)

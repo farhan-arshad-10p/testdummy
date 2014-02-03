@@ -1,0 +1,8 @@
+<tr class="user">
+  <td>
+    {{#linkTo 'user' user classNameBindings='user.appClass'}}
+      <img {{bindAttr src="user.avatar_url"}} class="tiny-avatar" />
+      {{user.full_name}}
+    {{/linkTo}}
+  </td>
+</tr>

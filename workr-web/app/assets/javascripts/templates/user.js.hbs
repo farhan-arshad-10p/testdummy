@@ -1,0 +1,24 @@
+<div class="row username">
+  <div class="col-md-12">
+    {{#if controller.isCurrentUser}}
+    {{else}}
+      {{#if controller.isFollowing}}
+      <button class="follow-button btn btn-danger pull-right app-unfollow-user" {{action unfollowUser this}}>Unfollow</button>
+      {{else}}
+      <button class="follow-button btn btn-success pull-right app-follow-user" {{action followUser this}}>Follow</button>
+      {{/if}}
+    {{/if}}
+    <img {{bindAttr src="avatar_url"}} width="200px" />
+    <h1>{{full_name}}</h1>
+  </div>
+</div>
+<div class="row">
+  <div class="col-md-12">
+    <div class="btn-group btn-group-justified">
+      {{#linkTo "user.collections" class="btn btn-default"}}Collections <span class='badge app-collection-count'>{{collection_count}}</span>{{/linkTo}}
+      {{#linkTo "user.following" class="app-following btn btn-default"}}Followed Users <span class='badge app-following-count'>{{following_count}}</span>{{/linkTo}}
+    </div>
+    <br />
+  </div>
+</div>
+{{outlet}}

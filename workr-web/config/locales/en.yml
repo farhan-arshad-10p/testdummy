@@ -1,0 +1,50 @@
+# To learn more, please read the Rails Internationalization guide
+# available at http://guides.rubyonrails.org/i18n.html.
+
+en:
+  dashboard: 
+    search_placeholder: Search articles
+    search_button: Search
+  registrations:
+    create:
+      success: Nice Work
+      error: Could not create a new account.
+      used_invite: This invite has already been accepted. Please sign in to continue.
+      missing_invite: Sorry, we could not find the given invite.
+    new:
+      sign_up_legend: Sign Up
+      accept_tos: I accept the Terms of Service
+      submit: Sign up
+      used_invite: This invite has already been accepted. Please sign in to continue.
+      missing_invite: Sorry, we could not find the given invite.
+      password_warning: (minimum is 8 characters)
+      interests: Choose interests
+      tos_link: View Terms of Service.
+      placeholder:
+        first_name: Enter your first name
+        last_name: Enter your last name
+        email: Enter your email
+        password: Password
+        password_confirmation: Password confirmation
+  articles:
+    clipped: Saved by %{name} to %{collection}
+    views:
+      one: 1 view
+      other: "%{count} views"
+    related:
+      related_articles_title: Related Articles
+    provider_html: From %{provider_name_link}
+  layouts:
+    application:
+      sign_in: Sign In
+      sign_out: Sign Out of %{email}
+      sign_up: Sign Up
+      feed: My Feed
+      all_articles: All Articles
+  activerecord:
+    errors:
+      models:
+        user:
+          attributes:
+            interests:
+              too_short: must have at least 1 chosen

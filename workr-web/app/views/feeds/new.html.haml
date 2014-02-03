@@ -1,0 +1,44 @@
+.row
+  .col-12.col-sm-12.col-lg-12
+    = form_tag search_feeds_path, method: :get do
+      .input-group
+        = text_field_tag :query, @query, {class: "form-control", placeholder: t('dashboard.search_placeholder')}
+        %span.input-group-btn
+          = submit_tag t('dashboard.search_button'), class: "btn btn-default", name: nil
+
+- @articles.each_slice(3) do |slice|
+  %br
+  .row
+    - slice.each do |article|
+      .col-lg-4
+        .thumbnail.app-article{class: "app-article-#{article.id}"}
+          - if article.featured_image.present?
+            %img(src="#{article.featured_image}")
+          .caption
+            %h4= article.title
+            = render 'articles/information', article: article
+            %p= t('articles.provider_html', provider_name_link: article.provider_display)
+            - if article.description
+              %p= article.description.html_safe 
+            %a.app-view-article.btn.btn-sm.btn-primary.btn-block{"data-toggle" => "modal", "data-target" => "#view-article-#{article.id}", href: article_path(article)} 
+              View Article
+
+      .modal.fade.app-article-modal{id: "view-article-#{article.id}"}
+        .modal-dialog
+          .modal-content
+            .modal-header
+              %button.close{"aria-hidden" => "true", "data-dismiss" => "modal", :type => "button"} ×
+              %h4.modal-title WORKR
+            .modal-body
+
+          = render 'articles/information', article: article
+          %p= t('articles.provider_html', provider_name_link: article.provider_display)
+
+
+    .modal.fade.app-article-modal{id: "view-article-#{article.id}"}
+      .modal-dialog
+        .modal-content
+          .modal-header
+            %button.close{"aria-hidden" => "true", "data-dismiss" => "modal", :type => "button"} ×
+            %h4.modal-title WORKR
+          .modal-body

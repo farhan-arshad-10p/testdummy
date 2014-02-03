@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+
+<title>class Api::V1::FlagsController - Rails Application Documentation</title>
+
+<link type="text/css" media="screen" href="../../rdoc.css" rel="stylesheet">
+
+<script type="text/javascript">
+  var rdoc_rel_prefix = "../../";
+</script>
+
+<script type="text/javascript" charset="utf-8" src="../../js/jquery.js"></script>
+<script type="text/javascript" charset="utf-8" src="../../js/navigation.js"></script>
+<script type="text/javascript" charset="utf-8" src="../../js/search_index.js"></script>
+<script type="text/javascript" charset="utf-8" src="../../js/search.js"></script>
+<script type="text/javascript" charset="utf-8" src="../../js/searcher.js"></script>
+<script type="text/javascript" charset="utf-8" src="../../js/darkfish.js"></script>
+
+
+<body id="top" class="class">
+<nav id="metadata">
+  <nav id="home-section" class="section">
+  <h3 class="section-header">
+    <a href="../../index.html">Home</a>
+    <a href="../../table_of_contents.html#classes">Classes</a>
+    <a href="../../table_of_contents.html#methods">Methods</a>
+  </h3>
+</nav>
+
+
+  <nav id="search-section" class="section project-section" class="initially-hidden">
+  <form action="#" method="get" accept-charset="utf-8">
+    <h3 class="section-header">
+      <input type="text" name="search" placeholder="Search" id="search-field"
+             title="Type to search, Up and Down to navigate, Enter to load">
+    </h3>
+  </form>
+
+  <ul id="search-results" class="initially-hidden"></ul>
+</nav>
+
+
+  
+
+  <div id="file-metadata">
+    <nav id="file-list-section" class="section">
+  <h3 class="section-header">Defined In</h3>
+  <ul>
+    <li>app/controllers/api/v1/flags_controller.rb
+  </ul>
+</nav>
+
+    
+  </div>
+
+  <div id="class-metadata">
+    
+    <nav id="parent-class-section" class="section">
+  <h3 class="section-header">Parent</h3>
+  
+  <p class="link"><a href="../ApplicationController.html">Api::ApplicationController</a>
+  
+</nav>
+
+    
+    
+    <!-- Method Quickref -->
+<nav id="method-list-section" class="section">
+  <h3 class="section-header">Methods</h3>
+
+  <ul class="link-list">
+    
+    <li ><a href="#method-i-create">#create</a>
+    
+  </ul>
+</nav>
+
+  </div>
+
+  <div id="project-metadata">
+    <nav id="fileindex-section" class="section project-section">
+  <h3 class="section-header">Pages</h3>
+
+  <ul>
+  
+    <li class="file"><a href="../../README_rdoc.html">README</a>
+  
+  </ul>
+</nav>
+
+    <nav id="classindex-section" class="section project-section">
+  <h3 class="section-header">Class and Module Index</h3>
+
+  <ul class="link-list">
+  
+    <li><a href="../../ActsAsTaggableOn.html">ActsAsTaggableOn</a>
+  
+    <li><a href="../../AdminUser.html">AdminUser</a>
+  
+    <li><a href="../../Api.html">Api</a>
+  
+    <li><a href="../../Api/ApplicationController.html">Api::ApplicationController</a>
+  
+    <li><a href="../../Api/V1.html">Api::V1</a>
+  
+    <li><a href="../../Api/V1/ArticleSerializer.html">Api::V1::ArticleSerializer</a>
+  
+    <li><a href="../../Api/V1/ArticlesController.html">Api::V1::ArticlesController</a>
+  
+    <li><a href="../../Api/V1/AvatarsController.html">Api::V1::AvatarsController</a>
+  
+    <li><a href="../../Api/V1/CollectionSerializer.html">Api::V1::CollectionSerializer</a>
+  
+    <li><a href="../../Api/V1/CollectionsController.html">Api::V1::CollectionsController</a>
+  
+    <li><a href="../../Api/V1/ContentSourceSerializer.html">Api::V1::ContentSourceSerializer</a>
+  
+    <li><a href="../../Api/V1/ContentSourcesController.html">Api::V1::ContentSourcesController</a>
+  
+    <li><a href="../../Api/V1/FeedSerializer.html">Api::V1::FeedSerializer</a>
+  
+    <li><a href="../../Api/V1/FeedsController.html">Api::V1::FeedsController</a>
+  
+    <li><a href="../../Api/V1/FlagsController.html">Api::V1::FlagsController</a>
+  
+    <li><a href="../../Api/V1/InterestSerializer.html">Api::V1::InterestSerializer</a>
+  
+    <li><a href="../../Api/V1/InterestsController.html">Api::V1::InterestsController</a>
+  
+    <li><a href="../../Api/V1/RatingSerializer.html">Api::V1::RatingSerializer</a>
+  
+    <li><a href="../../Api/V1/RatingsController.html">Api::V1::RatingsController</a>
+  
+    <li><a href="../../Api/V1/UserSerializer.html">Api::V1::UserSerializer</a>
+  
+    <li><a href="../../Api/V1/UsersController.html">Api::V1::UsersController</a>
+  
+    <li><a href="../../Api/V1/ViewedArticleSerializer.html">Api::V1::ViewedArticleSerializer</a>
+  
+    <li><a href="../../Api/V1/ViewedArticlesController.html">Api::V1::ViewedArticlesController</a>
+  
+    <li><a href="../../ApiConstraints.html">ApiConstraints</a>
+  
+    <li><a href="../../ApplicationController.html">ApplicationController</a>
+  
+    <li><a href="../../ApplicationHelper.html">ApplicationHelper</a>
+  
+    <li><a href="../../Article.html">Article</a>
+  
+    <li><a href="../../ArticleManager.html">ArticleManager</a>
+  
+    <li><a href="../../ClipController.html">ClipController</a>
+  
+    <li><a href="../../Clipper.html">Clipper</a>
+  
+    <li><a href="../../Clipper/Importer.html">Clipper::Importer</a>
+  
+    <li><a href="../../Clipper/Parser.html">Clipper::Parser</a>
+  
+    <li><a href="../../Collection.html">Collection</a>
+  
+    <li><a href="../../ContentSource.html">ContentSource</a>
+  
+    <li><a href="../../ContentSourceManager.html">ContentSourceManager</a>
+  
+    <li><a href="../../Evernote.html">Evernote</a>
+  
+    <li><a href="../../Evernote/Importer.html">Evernote::Importer</a>
+  
+    <li><a href="../../FeedPresenter.html">FeedPresenter</a>
+  
+    <li><a href="../../FileArticle.html">FileArticle</a>
+  
+    <li><a href="../../Flag.html">Flag</a>
+  
+    <li><a href="../../HostedFile.html">HostedFile</a>
+  
+    <li><a href="../../HtmlArticle.html">HtmlArticle</a>
+  
+    <li><a href="../../ImageArticle.html">ImageArticle</a>
+  
+    <li><a href="../../Interest.html">Interest</a>
+  
+    <li><a href="../../Invite.html">Invite</a>
+  
+    <li><a href="../../Object.html">Object</a>
+  
+    <li><a href="../../PageExtractor.html">PageExtractor</a>
+  
+    <li><a href="../../Presenter.html">Presenter</a>
+  
+    <li><a href="../../Rating.html">Rating</a>
+  
+    <li><a href="../../RatingsManager.html">RatingsManager</a>
+  
+    <li><a href="../../RegistrationsController.html">RegistrationsController</a>
+  
+    <li><a href="../../Relationship.html">Relationship</a>
+  
+    <li><a href="../../SiteController.html">SiteController</a>
+  
+    <li><a href="../../User.html">User</a>
+  
+    <li><a href="../../UserManager.html">UserManager</a>
+  
+    <li><a href="../../Users.html">Users</a>
+  
+    <li><a href="../../Users/OmniauthCallbacksController.html">Users::OmniauthCallbacksController</a>
+  
+    <li><a href="../../VideoArticle.html">VideoArticle</a>
+  
+    <li><a href="../../ViewedArticle.html">ViewedArticle</a>
+  
+    <li><a href="../../WorkrSettings.html">WorkrSettings</a>
+  
+  </ul>
+</nav>
+
+  </div>
+</nav>
+
+<div id="documentation">
+  <h1 class="class">class Api::V1::FlagsController</h1>
+
+  <div id="description" class="description">
+    
+  </div><!-- description -->
+
+  
+  
+  
+  <section id="5Buntitled-5D" class="documentation-section">
+    
+
+    
+
+    
+
+    
+
+    <!-- Methods -->
+    
+     <section id="public-instance-5Buntitled-5D-method-details" class="method-section section">
+      <h3 class="section-header">Public Instance Methods</h3>
+
+    
+      <div id="method-i-create" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">create</span><span
+            class="method-args">()</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+          
+
+          
+          <div class="method-source-code" id="create-source">
+            <pre><span class="ruby-comment"># File app/controllers/api/v1/flags_controller.rb, line 4</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">create</span>
+  <span class="ruby-identifier">params</span> = <span class="ruby-identifier">flag_params</span>()
+  <span class="ruby-identifier">params</span>[<span class="ruby-value">:article_id</span>] = <span class="ruby-identifier">params</span>.<span class="ruby-identifier">delete</span>(<span class="ruby-value">:article</span>)
+
+  <span class="ruby-identifier">current_user</span>.<span class="ruby-identifier">flags</span>.<span class="ruby-identifier">create!</span>(<span class="ruby-identifier">params</span>)
+
+  <span class="ruby-identifier">render</span> <span class="ruby-identifier">nothing</span><span class="ruby-operator">:</span> <span class="ruby-keyword">true</span>, <span class="ruby-identifier">status</span><span class="ruby-operator">:</span> <span class="ruby-value">:ok</span>
+<span class="ruby-keyword">end</span></pre>
+          </div><!-- create-source -->
+          
+        </div>
+
+        
+
+        
+      </div><!-- create-method -->
+
+    
+    </section><!-- public-instance-method-details -->
+  
+  </section><!-- 5Buntitled-5D -->
+
+</div><!-- documentation -->
+
+
+<footer id="validator-badges">
+  <p><a href="http://validator.w3.org/check/referer">[Validate]</a>
+  <p>Generated by <a href="https://github.com/rdoc/rdoc">RDoc</a> 4.0.0.
+  <p>Generated with the <a href="http://deveiate.org/projects/Darkfish-Rdoc/">Darkfish Rdoc Generator</a> 3.
+</footer>
+

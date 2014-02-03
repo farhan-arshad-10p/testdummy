@@ -1,0 +1,12 @@
+{{#if controllers.application.isArticleSearch}}
+  {{#each articles}}
+    <div class="col-md-4">
+      {{partial "articles/tile"}}
+    </div>
+  {{/each}}
+{{/if}}
+{{#if controllers.application.isCollectionSearch}}
+  {{#each collections}}
+    {{partial 'collection'}}
+  {{/each}}
+{{/if}}

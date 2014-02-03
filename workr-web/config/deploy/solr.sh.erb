@@ -1,0 +1,31 @@
+#!/bin/sh
+### BEGIN INIT INFO
+# Provides:
+# Required-Start: $remote_fs $syslog
+# Required-Stop: $remote_fs $syslog
+# Default-Start: 2 3 4 5
+# Default-Stop: 0 1 6
+# Short-Description: Start solr at boot time
+# Description: Enable service provided by solr.
+### END INIT INFO
+
+case "$1" in
+  start)
+    su www-data -c 'cd <%= deploy_to + "/current" %> && RAILS_ENV=production bundle exec rake sunspot:solr:start'
+    ;;
+  stop)
+    su www-data -c 'cd <%= deploy_to + "/current" %> && RAILS_ENV=production bundle exec rake sunspot:solr:stop'
+    ;;
+  restart)
+    $0 stop
+    $0 start
+    ;;
+  *)
+    echo "Usage: $0 {start|stop|restart}"
+    exit 1
+    ;;
+esac
+
+exit 0
+
+

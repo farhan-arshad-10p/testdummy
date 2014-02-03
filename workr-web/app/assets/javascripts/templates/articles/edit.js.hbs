@@ -1,0 +1,12 @@
+<h2>
+  Editing "{{title}}"
+  <button class="pull-right btn btn-danger app-delete-article" {{action delete_article this}}>Delete</button>
+</h2>
+
+
+<form role="form">
+  {{partial "articles/form"}}
+  <div class="form-group">
+    <button type="submit" class="btn btn-default" {{action "update" this}}>Update Article</button>
+  </div>
+</form>

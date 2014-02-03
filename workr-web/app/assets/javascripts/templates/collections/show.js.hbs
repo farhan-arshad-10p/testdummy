@@ -1,0 +1,13 @@
+{{#if articles.isFulfilled}}
+<div class="col-md-12">
+  <h1>{{name}} <small>{{articles.length}} articles</small>{{#if is_editable}}{{#link-to 'collections.edit' controller class="btn btn-info pull-right app-edit"}}Edit{{/link-to}}{{/if}}</h1>
+</div>
+
+<div id="collection-articles" class="app-full-collection">
+  {{#each articles }}
+    <div class="col-md-4">
+      {{partial "articles/tile"}}
+    </div>
+  {{/each}}
+</div>
+{{/if}}
